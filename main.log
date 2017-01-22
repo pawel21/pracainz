@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.10.19)  21 JAN 2017 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.10.19)  22 JAN 2017 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -703,14 +703,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 LaTeX Warning: Unused global option(s):
     [portrait].
 
-(./main.aux
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
@@ -811,15 +804,43 @@ Overfull \hbox (49.14539pt too wide) in paragraph at lines 17--19
  []
 
 ) (./laser850vcsel.tex
+Overfull \hbox (3.668pt too wide) in paragraph at lines 5--15
+ [] 
+ []
+
+File: plot_vcsel_850/plot_ivl_4.eps Graphic file (type eps)
+<plot_vcsel_850/plot_ivl_4.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 19--20
+ [] 
+ []
+
 File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
- <plot_vcsel_850/plot_eff_all_via_current.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 3--5
+<plot_vcsel_850/plot_eff_all_via_current.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 25--26
+ [] 
+ []
+
+File: plot_vcsel_850/plot_eff_all_via_power.eps Graphic file (type eps)
+<plot_vcsel_850/plot_eff_all_via_power.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 31--33
  [] 
  []
 
 File: plot_vcsel_850/plot_eff_20_90_via_power.eps Graphic file (type eps)
 <plot_vcsel_850/plot_eff_20_90_via_power.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 9--11
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 37--39
+ [] 
+ []
+
+File: plot_vcsel_850/plot_fit_i_th.eps Graphic file (type eps)
+<plot_vcsel_850/plot_fit_i_th.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 43--44
+ [] 
+ []
+
+File: plot_vcsel_850/plot_temp_i_th.eps Graphic file (type eps)
+<plot_vcsel_850/plot_temp_i_th.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 49--50
  [] 
  []
 
@@ -833,21 +854,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-] [2] (./main.aux)
+] [2] [3] [4] [5] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5914 strings out of 493030
- 78800 string characters out of 6136259
- 186761 words of memory out of 5000000
- 9334 multiletter control sequences out of 15000+600000
+ 5927 strings out of 493030
+ 79060 string characters out of 6136259
+ 193761 words of memory out of 5000000
+ 9344 multiletter control sequences out of 15000+600000
  9358 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,13n,58p,289b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,15n,58p,289b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (2 pages, 2920 bytes).
+Output written on main.dvi (5 pages, 7380 bytes).

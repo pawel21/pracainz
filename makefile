@@ -1,7 +1,7 @@
-main.pdf: main.ps laser635.tex
+main.pdf: main.ps laser635.tex laser850vcsel.tex
 	ps2pdf main.ps
 
-main.dvi: main.tex laser635.tex
+main.dvi: main.tex laser635.tex laser850vcsel.tex
 	latex main.tex
 
 main.ps: main.dvi
