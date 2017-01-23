@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  23 JAN 2017 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  23 JAN 2017 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1224,7 +1224,7 @@ Overfull \hbox (49.14539pt too wide) in paragraph at lines 39--41
  [] 
  []
 
-) (./laser850vcsel.tex
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.22336pt.
@@ -1233,7 +1233,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-] [2] [3]
+] [2] [3] (./laser850vcsel.tex
 Overfull \hbox (3.668pt too wide) in paragraph at lines 7--17
  [] 
  []
@@ -1286,10 +1286,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  22510 strings out of 493030
  519608 string characters out of 6136260
- 701572 words of memory out of 5000000
+ 700573 words of memory out of 5000000
  25567 multiletter control sequences out of 15000+600000
  9854 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,89p,731b,1864s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (7 pages, 49492 bytes).
+Output written on main.dvi (7 pages, 49500 bytes).
