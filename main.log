@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  22 JAN 2017 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  23 JAN 2017 01:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1087,7 +1087,14 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 LaTeX Warning: Unused global option(s):
     [portrait].
 
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `rys2' multiply defined.
+
+
+LaTeX Warning: Label `rys2' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
@@ -1157,32 +1164,36 @@ your preamble.
  on input line 76.
 
 (./laser635.tex
-LaTeX Font Info:    Try loading font information for OML+plm on input line 3.
- (/usr/share/texlive/texmf-dist/tex/latex/polski/omlplm.fd
+
+LaTeX Font Warning: Font shape `OT4/phv/bx/n' undefined
+(Font)              using `OT4/phv/m/n' instead on input line 1.
+
+LaTeX Font Info:    Try loading font information for OML+plm on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 3.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 3.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 3.
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1190,58 +1201,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: plot635/plot_ivl_4.eps Graphic file (type eps)
 
 <plot635/plot_ivl_4.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 17--19
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 15--17
  [] 
  []
 
 File: plot635/plot_i_th_4.eps Graphic file (type eps)
 <plot635/plot_i_th_4.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 23--25
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 21--23
+ [] 
+ []
+
+(./plot635/plot_i_th.tex)
+File: plot635/plot_temp_i_th_fit.eps Graphic file (type eps)
+ <plot635/plot_temp_i_th_fit.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 33--35
+ [] 
+ []
+
+File: plot635/plot_eff_via_power.eps Graphic file (type eps)
+<plot635/plot_eff_via_power.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 39--41
  [] 
  []
 
 ) (./laser850vcsel.tex
-Overfull \hbox (3.668pt too wide) in paragraph at lines 5--15
- [] 
- []
-
-File: plot_vcsel_850/plot_ivl_4.eps Graphic file (type eps)
-<plot_vcsel_850/plot_ivl_4.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 19--20
- [] 
- []
-
-File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_all_via_current.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 25--26
- [] 
- []
-
-File: plot_vcsel_850/plot_eff_all_via_power.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_all_via_power.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 31--33
- [] 
- []
-
-File: plot_vcsel_850/plot_eff_20_90_via_power.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_20_90_via_power.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 37--39
- [] 
- []
-
-File: plot_vcsel_850/plot_fit_i_th.eps Graphic file (type eps)
-<plot_vcsel_850/plot_fit_i_th.eps>
-Overfull \hbox (49.14539pt too wide) in paragraph at lines 43--44
- [] 
- []
-
-(./plot_vcsel_850/plot_temp_i_th.tex)
-Overfull \hbox (12.64392pt too wide) in paragraph at lines 128--50
- [] 
- []
-
-) 
-AED: lastpage setting LastPage
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.22336pt.
@@ -1250,21 +1233,63 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-] [2] [3] [4] [5] (./main.aux)
+] [2] [3]
+Overfull \hbox (3.668pt too wide) in paragraph at lines 7--17
+ [] 
+ []
+
+File: plot_vcsel_850/plot_ivl_4.eps Graphic file (type eps)
+<plot_vcsel_850/plot_ivl_4.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 21--22
+ [] 
+ []
+
+File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
+<plot_vcsel_850/plot_eff_all_via_current.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 27--28
+ [] 
+ []
+
+File: plot_vcsel_850/plot_eff_all_via_power.eps Graphic file (type eps)
+<plot_vcsel_850/plot_eff_all_via_power.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 33--35
+ [] 
+ []
+
+File: plot_vcsel_850/plot_eff_20_90_via_power.eps Graphic file (type eps)
+<plot_vcsel_850/plot_eff_20_90_via_power.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 39--41
+ [] 
+ []
+
+File: plot_vcsel_850/plot_fit_i_th.eps Graphic file (type eps)
+<plot_vcsel_850/plot_fit_i_th.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 45--46
+ [] 
+ []
+
+(./plot_vcsel_850/plot_temp_i_th.tex)
+Overfull \hbox (12.64392pt too wide) in paragraph at lines 128--52
+ [] 
+ []
+
+) 
+AED: lastpage setting LastPage
+[4] [5] [6] [7] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22470 strings out of 493030
- 518913 string characters out of 6136260
- 703573 words of memory out of 5000000
- 25533 multiletter control sequences out of 15000+600000
- 9358 words of font info for 32 fonts, out of 8000000 for 9000
+ 22510 strings out of 493030
+ 519608 string characters out of 6136260
+ 701572 words of memory out of 5000000
+ 25567 multiletter control sequences out of 15000+600000
+ 9854 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,89p,731b,1864s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (5 pages, 34700 bytes).
+Output written on main.dvi (7 pages, 49492 bytes).
