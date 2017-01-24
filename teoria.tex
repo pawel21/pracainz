@@ -1,0 +1,71 @@
+\section{Teoria}
+\subsection{Prąd progowy}
+Wśród laserów półprzewodnikowych możemy wyróżnić lasery krawędziowe oraz lasery o emisji powierzchniowej z pionową wnęką rezonansową tzw. Lasery VCSEL (ang. \textit{Vertical Cavity Surface Emitting Laser}) będące obiektem moich badań. Aby scharakteryzować lasery, można wykonać ich charakterystyki, które przedstawiają, jak zmienia się moc wyjściowa oraz napięcie lasera w funkcji zadanego prądu.
+
+Ważnym parametrem laserów półprzewodnikowych jest prąd progowy (z ang. \textit{threshold
+current}) który określa wartość prądu, przy którym zaczyna zachodzić akcja laserowa, czyli
+rośnie gwałtownie natężenie promieniowania i maleje szerokość linii emisyjnej. W celu wyznaczenia prądu progowego należy sporządzić wykres zależności mocy wyjściowej lasera od prądu zasilającego. Następnie dla prądu gdzie zaczyna się akcja laserowa dla odcinka liniowego należy metodą najmniejszych kwadratów przy użyciu wielomianu pierwszego stopnia znaleźć parametry krzywej. Dla wyznaczonej krzywej należy znaleźć miejsce zerowe, które będzie wyznaczonym prądem progowym.
+\begin{equation}
+P = a \cdot I + b
+\end{equation}
+\begin{equation}
+I_{th} = -\frac{b}{a}
+\end{equation}
+\begin{equation}
+\Delta I_{th} = \left\lvert \frac{\partial I_{th}}{\partial a} \right\rvert \cdot \Delta a + \left\lvert \frac{\partial I_{th}}{\partial b} \right\rvert \cdot \Delta b
+\end{equation}
+\begin{equation}
+\Delta I_{th} = \left\lvert -\frac{b}{a^2} \right\rvert \cdot \Delta a + \left\lvert -\frac{1}{a} \right\rvert \cdot \Delta b
+\end{equation}
+Dla laserów krawędziowych zależności prądu progowego $I_{th}$ od temperatury $T$ możemy wyrazić za pomocą równania:
+\begin{equation}
+I_{th} = I_0 \exp \left( \frac{T}{T_0} \right)
+\end{equation}
+Wartości parametrów $I_0$ oraz $T_0$ możemy wyznaczyć na podstawie charakterystyk
+emisyjnych lasera w różnych temperaturach $T$. \\
+Przez zlogarytmowanie wartości prądu oraz podstawienie otrzymujemy:
+\begin{equation}
+\ln(I_{th}) =    \frac{T}{T_0}  + \ln(I_0)
+\end{equation}
+Mając wartości prądu progowego w danej temperaturze  można do nich dopasować funkcje liniową w postaci:
+\begin{equation}
+y = a \cdot T + b
+\end{equation}
+Gdzie:
+\begin{equation}
+y = \ln(I_{th})
+\end{equation}
+\begin{equation}
+a = \frac{1}{T_0}
+\end{equation}
+\begin{equation}
+b = \ln(I_0)
+\end{equation}
+Na tej podstawie możemy znaleźć poszukiwane parametry $I_0$ oraz $T_0$:
+\begin{equation}
+I_0 = \mathrm{e}^b
+\end{equation}
+\begin{equation}
+T_0 = \frac{1}{a}
+\end{equation}
+Korzystając z różniczki zupełnej można obliczyć wartości błędów wyznaczonych wartości:
+\begin{equation}
+\Delta I_0 = \left\lvert \frac{\partial I_{0}}{\partial b} \right\rvert \cdot \Delta b = | \mathtt{e}^b | \cdot \Delta b
+\end{equation}
+\begin{equation}
+\Delta T_0 = \left\lvert \frac{\partial T_{0}}{\partial a} \right\rvert \cdot \Delta a = \left\lvert -\frac{1}{a^2} \right\rvert \cdot \Delta a
+\end{equation}
+\subsection{Sprawność}
+Innym ważnym parametrem, którym możemy scharakteryzować lasery półprzewodnikowe jest ich sprawność. Można wyróżnić następujące sprawności:
+\begin{itemize}
+\item Sprawność różniczkowa (ang. \textit{slope efficiency}) --- jest zdefiniowana jako nachylenie krzywej uzyskanej przez wykreślenie zależności mocy wyjściowej z lasera versus energii dostarczonej do lasera (natężenie prądu lub moc dostarczona).
+\item Sprawność całkowita (ang. \textit{Wall-plug-efficiency}) --- jest zdefiniowana jako stosunek mocy wyjściowej do całkowitej mocy wejściowej lasera.
+\end{itemize}
+\subsection{Wpływ temperatury chłodnicy lasera na jego paramentry}
+Wraz ze wzrostem temperatury wartość prądu progowego $I_{\mathrm{th}}$ rośnie, natomiast sprawność różniczkowa $\eta$ maleje. Jest to spowodowane przez:
+\begin{itemize}
+\item W wyższych temperaturach funkcja Fermiego-Diraca, która opisuje prawdopodobieństwo zajmowania stanów energetycznych staje się bardziej "rozmarzana". Przez co obrządzenie poziomów energetycznych jest bliższe powłoce przewodzenia dla elektronów oraz bliższe powłoce walencyjnej dla dziur. Dzięki temu możliwość wzmocnienia promieniowania lasera na długości fali emitowanej jest zredukowane.
+\item Dodatkowo w podwójnym aktywnym regionie heterostruktury, rozkład energii elektronów i dziur w wyższych temperaturach jest przesunięty dalej od krawędzi pasma, przez co zwiększa się prawdopodobieństwo pobytu ładunków w aktywnym regionie, co powoduje obniżenie sprawności $\eta$
+\item Wraz ze wzrostem temperatury rośnie współczynnik Auger, obniżając wydajność i czas życia ładunku podczas przejścia promienistego, co zwiększa wartość prądu progowego $I_{\mathrm{th}}$.
+\end{itemize}
+\newpage
