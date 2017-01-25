@@ -17,7 +17,9 @@ I_{th} = -\frac{b}{a}
 \begin{equation}
 \Delta I_{th} = \left\lvert -\frac{b}{a^2} \right\rvert \cdot \Delta a + \left\lvert -\frac{1}{a} \right\rvert \cdot \Delta b
 \end{equation}
-Dla laserów krawędziowych zależności prądu progowego $I_{th}$ od temperatury $T$ możemy wyrazić za pomocą równania:
+Dla laserów krawędziowych prąd progowy rośnie wraz z temperaturą, co może być scharakteryzowany za pomocą parametru
+$T_{0}$ wyrażonego w kelwinach.
+Dla laserów krawędziowych zależności prądu progowego $I_{th}$ od temperatury $T$ wyrażamy w postaci równania:
 \begin{equation}
 I_{th} = I_0 \exp \left( \frac{T}{T_0} \right)
 \end{equation}
@@ -55,6 +57,8 @@ Korzystając z różniczki zupełnej można obliczyć wartości błędów wyznac
 \begin{equation}
 \Delta T_0 = \left\lvert \frac{\partial T_{0}}{\partial a} \right\rvert \cdot \Delta a = \left\lvert -\frac{1}{a^2} \right\rvert \cdot \Delta a
 \end{equation}
+Dla laserów VCSEL nie można zastować powyszej zależności, ponieważ zależności prądu progowego od tempearury chrakteryzuje się pewnym
+ minimalnym prądem progowym, gdzie w niższych i wyższych temperatuach wartość prądu progowego jest większa.
 \subsection{Sprawność}
 Innym ważnym parametrem, którym możemy scharakteryzować lasery półprzewodnikowe jest ich sprawność. Można wyróżnić następujące sprawności:
 \begin{itemize}
@@ -68,4 +72,10 @@ Wraz ze wzrostem temperatury wartość prądu progowego $I_{\mathrm{th}}$ rośni
 \item Dodatkowo w podwójnym aktywnym regionie heterostruktury, rozkład energii elektronów i dziur w wyższych temperaturach jest przesunięty dalej od krawędzi pasma, przez co zwiększa się prawdopodobieństwo pobytu ładunków w aktywnym regionie, co powoduje obniżenie sprawności $\eta$
 \item Wraz ze wzrostem temperatury rośnie współczynnik Auger, obniżając wydajność i czas życia ładunku podczas przejścia promienistego, co zwiększa wartość prądu progowego $I_{\mathrm{th}}$.
 \end{itemize}
+\begin{figure}
+\center
+  \includegraphics[scale=0.30]{wykres2.eps}
+  \caption{Teoria.}
+  \label{teoria_rys_1}
+\end{figure}
 \newpage
