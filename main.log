@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  26 JAN 2017 02:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  28 JAN 2017 00:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,6 +1098,18 @@ LaTeX Warning: Label `rys2' multiply defined.
 LaTeX Warning: Label `rys2' multiply defined.
 
 
+LaTeX Warning: Label `rys3' multiply defined.
+
+
+LaTeX Warning: Label `rys1' multiply defined.
+
+
+LaTeX Warning: Label `rys1' multiply defined.
+
+
+LaTeX Warning: Label `rys1' multiply defined.
+
+
 LaTeX Warning: Label `rys1' multiply defined.
 
 )
@@ -1252,6 +1264,12 @@ Overfull \hbox (49.14539pt too wide) in paragraph at lines 39--41
  [] 
  []
 
+File: plot635/plot_voltage_power.eps Graphic file (type eps)
+<plot635/plot_voltage_power.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 45--47
+ [] 
+ []
+
 ) [4] [5] [6] (./laser850vcsel.tex
 Overfull \hbox (3.668pt too wide) in paragraph at lines 7--17
  [] 
@@ -1311,16 +1329,39 @@ Overfull \hbox (49.14539pt too wide) in paragraph at lines 69--70
  [] 
  []
 
-[7] [8] [9] [10] [11]) (./laser850edge.tex
+[7] [8] [9] [10] [11]
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [12])
+(./laser850edge.tex
 File: plot_edge_850/plot_fit.eps Graphic file (type eps)
  <plot_edge_850/plot_fit.eps>
 Overfull \hbox (43.42395pt too wide) in paragraph at lines 4--6
  [] 
  []
 
+) (./laserCommon.tex
+File: plot_common/plot_eff.eps Graphic file (type eps)
+ <plot_common/plot_eff.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 4--6
+ [] 
+ []
+
+File: plot_common/plot_temp_i_th.eps Graphic file (type eps)
+<plot_common/plot_temp_i_th.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 10--12
+ [] 
+ []
+
+File: plot_common/plot_wall_eff.eps Graphic file (type eps)
+<plot_common/plot_wall_eff.eps>
+Overfull \hbox (49.14539pt too wide) in paragraph at lines 16--18
+ [] 
+ []
+
 ) 
 AED: lastpage setting LastPage
-[12] [13] (./main.aux)
+[13] [14] [15] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1329,12 +1370,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22655 strings out of 493030
- 521724 string characters out of 6136260
- 698912 words of memory out of 5000000
- 25695 multiletter control sequences out of 15000+600000
+ 22667 strings out of 493030
+ 521961 string characters out of 6136260
+ 698911 words of memory out of 5000000
+ 25699 multiletter control sequences out of 15000+600000
  12716 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,15n,89p,731b,1860s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (13 pages, 42420 bytes).
+Output written on main.dvi (15 pages, 44332 bytes).
