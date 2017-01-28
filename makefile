@@ -1,7 +1,7 @@
-main.pdf: main.ps laser635.tex laser850vcsel.tex laser850edge.tex teoria.tex laserCommon.tex
+main.pdf: main.ps laser635.tex laser850vcsel.tex laser850edge.tex teoria.tex laser980.tex laserCommon.tex
 	ps2pdf main.ps
 
-main.dvi: main.tex laser635.tex laser850vcsel.tex laser850edge.tex teoria.tex laserCommon.tex
+main.dvi: main.tex laser635.tex laser850vcsel.tex laser850edge.tex laser980.tex teoria.tex laserCommon.tex
 	latex main.tex
 
 main.ps: main.dvi
