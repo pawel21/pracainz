@@ -1,0 +1,42 @@
+\chapter{Komunikacja z urządzeniami pomiarowymi na platformie Linux}
+\section{Programowane urządzenia pomiarowe}
+Przez  programowane urządzenia pomiarowe rozumiemy sprzęt mogący dokonywać pomiarów wielkości elektrycznych i nieelektrycznych, który wyposzażony jest w interfejs umożliwiający sterowanie nimi przy pomocy komputera. Przykładami takich urządzeń, którymi zajmuje się w swojej pracy są:
+\begin{itemize}
+\item Zasilacza diód laserowych firmy Thorlabs model LDC4005.
+\item Miernik mocy firmy Thorlas firmy Thorlabs model PM100.
+\end{itemize}
+Z wyżej wymienionymi urządzeniami możliwa jest fizyczna komunikacja za pomocą interfejsu USB przy pomocy standardu komend SCPI, który zostanie opiszany w dalszej cześci rozdziału.
+
+\section{Komunikacja}
+W systemach Unix z którego dziedziczy system Linux, wszystko jest plikiem. Linuksowy sterownik znakowy (ang. \textit{char driver}) pozwala na reprezentowanie urządzenia za pomocą specjalnych plików wirtualnych, które znajdują się w przestrzeni użytkownika w katalogu $\mathtt{/dev/<nazwa>}$. Obsługa tych plików możliwa jest za pomocą wywołań systemowych (ang. \textit{system call}), które stanowią API za pomocą którego użytkowniki może sterować sprzętem. Podstawowe wywołaniami systemowymi pozwalające na sterowanie sprzętem to:
+\begin{itemize}
+\item $\mathtt{open}$ --- służy do połaczenia z urządzeniem, zwraca deskrypotor pliku.
+\item $\mathtt{write}$ --- funkcja służaca do wysyłania komend do urządzenia .
+\item $\mathtt{read}$ --- funckja służąca do odczytywania buffora urządzenia.
+\item $\mathtt{close}$ --- funkcja zamykająca połączenie.
+\end{itemize}
+Funckje te mają swoją implementacje w języku C w bibliotecze $<\mathtt{fcntl.h}>$, oraz w języku Python w bibliotecze $\mathtt{os}$.
+\section{SCPI --- standard komend do komunikacji z urządzeniami}
+SCPI  (ang. \textit{Standard  Commands  for  Programmable  Instruments}) jest tekstowym interfejsem ASCII do programowanych urządzeń pomiarowych mający na celu standaryzacje polecenie używanych w systemach pomiarowym. Zdefiniowany został 1990 roku, wedle specyfikacji IEEE 488.2. (Institute of Electrical and Electronics Engineers, międzynarodowa organizacja stowarzyszeń inżynierów elektryków i elektroników.  Dzięki temu możliwa jest obsługa tych urządzeń przy wykorzystaniu komputera. Polecenia SCPI są to ciągi tekstowe ASCII, które są wysyłane do urządzenia. Polecenia są serią jednego lub więcej słów, przy czym wiele z nich używa dodatkowych parametrów. Odpowiedzi do zapytania polecenia są zazwyczaj ciągami ASCII. W przypadku danych masowych mogą być użytawane także formaty binarne. \\
+
+Cechą  poleceń  wspólnych  (ang.  common)  jest  ich  implementacja  przez  każde urządzenie. Czyli naprzykład to samo polecenie będzie działać na każdym oscyloskopie bez względu na producenta. Można wyróżnić dwie grupy poleceń:
+\begin{itemize}
+\item Polecenia dla każdego urządzenia pomiarowego nie zależnie od jego przeznacznia. Takimi komendami są m.in.
+\begin{itemize}
+\item $\mathtt{*idn?}$ --- odczytuje identyfikator urządzenia.
+\item $\mathtt{*rst}$ --- powduje przywrócenie ustawień początkowych urządzenia.
+\item $\mathtt{*cls}$ --- powduje wyzerowanie informacji o błędach.
+\item $\mathtt{*opc?}$  --- (ang.  operation  complete)  zapytanie  o  zakończenie  wykonania
+poprzedzających poleceń. \\
+W  odpowiedzi  na  zapytanie  po  zakończeniu  wykonywania  poprzedzających poleceń urządzenie prześle wartość 1.
+\item $\mathtt{*wai}$ ---  (ang.  wait)  oczekiwanie  na  zakończenie  wykonania  poprzedzających poleceń.
+\end{itemize}
+
+\item Polecenia charakterystyczne dla danego urządzenia pomiarowego zgodnie z jego przeznaczeniem. Przykładowe polecenie które będzie działać na każdym zasilaczu korzystającym z standardu SCPI:
+\begin{itemize}
+\item Służacę do ustawienie wartości prądu na 0.01\,A \\ $\mathtt{SOURce:CURRent:LEVel:AMPLitude}$  $\mathtt{0.01}$
+\end{itemize}
+\end{itemize}
+
+Fizyczne łącze komunikacyjne nie jest zdefiniowane przez SCPI. Stworzony standard IEEE-488 był dla GPIB, ale może być również używany z interfejsem RS-232, Ethernet, USB, VXIbus.
+\newpage
