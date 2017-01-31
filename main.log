@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  31 JAN 2017 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  1 FEB 2017 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,9 +1098,6 @@ LaTeX Warning: Label `teoria_rys_1' multiply defined.
 LaTeX Warning: Label `rys1' multiply defined.
 
 
-LaTeX Warning: Label `rys1' multiply defined.
-
-
 LaTeX Warning: Label `rys2' multiply defined.
 
 
@@ -1291,51 +1288,73 @@ Overfull \hbox (7.50253pt too wide) in paragraph at lines 10--11
 -to-ra mo-cy Thor-labs PM100. 
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[6
+
+] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(./IODevice.py
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+
+Overfull \hbox (47.21347pt too wide) in paragraph at lines 7--9
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+) (./PM100.py) (./LDC4005.py [7]) (./measure.py
+Overfull \hbox (35.21335pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (1.84865pt too wide) in paragraph at lines 13--16
+Overfull \hbox (1.84865pt too wide) in paragraph at lines 24--27
 []\OT4/phv/m/it/12 Jedna z mo»-li-wo-±ci¡ prze-pro-wa-dza-nia po-mia-rów jest w
 y-ko-rzy-sta-nie skryp-tu (wraz
  []
 
-LaTeX Font Info:    Try loading font information for OT4+pcr on input line 16.
-LaTeX Font Info:    No file OT4pcr.fd. on input line 16.
+LaTeX Font Info:    Try loading font information for OT4+pcr on input line 27.
+LaTeX Font Info:    No file OT4pcr.fd. on input line 27.
 
 LaTeX Font Warning: Font shape `OT4/pcr/m/n' undefined
-(Font)              using `OT4/cmr/m/n' instead on input line 16.
+(Font)              using `OT4/cmr/m/n' instead on input line 27.
 
+[8]
 File: tree.eps Graphic file (type eps)
-<tree.eps>
-
-LaTeX Warning: Reference `gui_rys' on page 6 undefined on input line 44.
-
+ <tree.eps>
 File: gui.eps Graphic file (type eps)
-<gui.eps>
-Overfull \hbox (42.92165pt too wide) in paragraph at lines 48--50
+ <gui.eps>
+Overfull \hbox (42.92165pt too wide) in paragraph at lines 59--61
  [] 
  []
 
-[6
 
-] [7]) [8] (./teoria.tex
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9]) [10] (./teoria.tex
 Rozdzia\PlPrIeC {\l } 4.
-[9
+[11
 
-]
+] [12]
 File: wykres2.eps Graphic file (type eps)
  <wykres2.eps>
-Overfull \hbox (2.60713pt too wide) in paragraph at lines 82--84
+Overfull \hbox (2.60713pt too wide) in paragraph at lines 88--90
 \OT4/pcr/m/n/12 wraz z spad-kiem tem-pe-ra-tu-ry chªod-ni-cy la-se-ra. Jest to 
 spodo-wa-ne wy-ostrza-niem(ang.
  []
 
-[10]
 File: fermi.eps Graphic file (type eps)
- <fermi.eps> [11]) (./pomiar.tex [12]
+<fermi.eps> [13]) (./pomiar.tex [14]
 Rozdzia\PlPrIeC {\l } 5.
 File: schemat.eps Graphic file (type eps)
 <schemat.eps>) (./laser635.tex
@@ -1343,7 +1362,7 @@ Overfull \hbox (28.46796pt too wide) in paragraph at lines 5--11
  [] 
  []
 
-[13
+[15
 
 ]
 File: plot635/plot_ivl_4.eps Graphic file (type eps)
@@ -1376,7 +1395,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 39--41
  [] 
  []
 
-) [14] [15] [16] (./laser850vcsel.tex
+) [16] [17] [18] (./laser850vcsel.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 7--17
  [] 
  []
@@ -1435,7 +1454,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 69--70
  [] 
  []
 
-[17] [18] [19] [20] [21]) [22] (./laser850edge.tex
+[19] [20] [21] [22] [23]) [24] (./laser850edge.tex
 File: plot_edge_850/plot_fit.eps Graphic file (type eps)
 
 <plot_edge_850/plot_fit.eps>
@@ -1449,14 +1468,14 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 10--12
  [] 
  []
 
-) [23] (./laser980.tex
+) [25] (./laser980.tex
 File: plot980/plot_fit_i_th4.eps Graphic file (type eps)
  <plot980/plot_fit_i_th4.eps>
 Overfull \hbox (77.59814pt too wide) in paragraph at lines 4--6
  [] 
  []
 
-) [24] (./laserCommon.tex
+) [26] (./laserCommon.tex
 File: plot_common/plot_eff.eps Graphic file (type eps)
  <plot_common/plot_eff.eps>
 Overfull \hbox (77.59814pt too wide) in paragraph at lines 4--6
@@ -1475,28 +1494,25 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 16--18
  [] 
  []
 
-) (./bibliografia.tex [25] [26] [27]) 
+) (./bibliografia.tex [27] [28] [29]) 
 AED: lastpage setting LastPage
-[28
+[30
 
 ] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22659 strings out of 493030
- 512463 string characters out of 6136260
- 708912 words of memory out of 5000000
- 25659 multiletter control sequences out of 15000+600000
- 13212 words of font info for 44 fonts, out of 8000000 for 9000
+ 22907 strings out of 493030
+ 515377 string characters out of 6136260
+ 850911 words of memory out of 5000000
+ 25889 multiletter control sequences out of 15000+600000
+ 13708 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,15n,77p,881b,1220s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,15n,77p,881b,1823s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (28 pages, 67392 bytes).
+Output written on main.dvi (30 pages, 106076 bytes).
