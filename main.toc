@@ -3,17 +3,23 @@
 \contentsline {section}{\numberline {2.1\relax .\kern .5em }Programowane urz\IeC {\k a}dzenia pomiarowe}{4}
 \contentsline {section}{\numberline {2.2\relax .\kern .5em }Komunikacja}{4}
 \contentsline {section}{\numberline {2.3\relax .\kern .5em }SCPI --- standard komend do komunikacji z urz\IeC {\k a}dzeniami}{4}
-\contentsline {section}{\numberline {2.4\relax .\kern .5em }Uk\IeC {\l }ad pomiarowy}{6}
-\contentsline {subsection}{\numberline {2.4.1\relax .\kern .5em }Przebieg pomiar\IeC {\'o}w}{6}
-\contentsline {section}{\numberline {2.5\relax .\kern .5em }Teoria}{6}
-\contentsline {subsection}{\numberline {2.5.1\relax .\kern .5em }Pr\IeC {\k a}d progowy}{6}
-\contentsline {subsection}{\numberline {2.5.2\relax .\kern .5em }Sprawno\IeC {\'s}\IeC {\'c}}{8}
-\contentsline {subsection}{\numberline {2.5.3\relax .\kern .5em }Wp\IeC {\l }yw temperatury ch\IeC {\l }odnicy lasera na jego paramentry}{8}
-\contentsline {subsection}{\numberline {2.5.4\relax .\kern .5em }Funkcja Fermiego}{8}
-\contentsline {section}{\numberline {2.6\relax .\kern .5em }Laser 635\tmspace +\thinmuskip {.1667em}nm}{10}
-\contentsline {section}{\numberline {2.7\relax .\kern .5em }Laser VCSEL 850\tmspace +\thinmuskip {.1667em}nm}{13}
-\contentsline {section}{\numberline {2.8\relax .\kern .5em }Om\IeC {\'o}wienie wynik\IeC {\'o}w}{18}
-\contentsline {section}{\numberline {2.9\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm}{18}
-\contentsline {section}{\numberline {2.10\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm}{18}
-\contentsline {section}{\numberline {2.11\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{18}
-\contentsline {chapter}{Bibliografia}{22}
+\contentsline {chapter}{\numberline {3\relax .\kern .5em }Program do sterowania pomiarami charakterystyk laser\IeC {\'o}w p\IeC {\'o}\IeC {\l }przewodnikowych z wykorzystaniem sprz\IeC {\k e}tu Thorlabs}{6}
+\contentsline {section}{\numberline {3.1\relax .\kern .5em }Wst\IeC {\k e}p}{6}
+\contentsline {section}{\numberline {3.2\relax .\kern .5em }Wersja skryptowa programu}{6}
+\contentsline {section}{\numberline {3.3\relax .\kern .5em }Wersja okienkowa programu do pomiar\IeC {\'o}w}{7}
+\contentsline {chapter}{\numberline {4\relax .\kern .5em }Lasery p\IeC {\'o}\IeC {\l }przewodnikowe}{9}
+\contentsline {section}{\numberline {4.1\relax .\kern .5em }Teoria}{9}
+\contentsline {subsection}{\numberline {4.1.1\relax .\kern .5em }Pr\IeC {\k a}d progowy}{9}
+\contentsline {subsection}{\numberline {4.1.2\relax .\kern .5em }Sprawno\IeC {\'s}\IeC {\'c}}{10}
+\contentsline {subsection}{\numberline {4.1.3\relax .\kern .5em }Wp\IeC {\l }yw temperatury ch\IeC {\l }odnicy lasera na jego paramentry}{10}
+\contentsline {subsection}{\numberline {4.1.4\relax .\kern .5em }Funkcja Fermiego}{11}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Opisz eksperymentu}{13}
+\contentsline {section}{\numberline {5.1\relax .\kern .5em }Uk\IeC {\l }ad pomiarowy}{13}
+\contentsline {subsection}{\numberline {5.1.1\relax .\kern .5em }Przebieg pomiar\IeC {\'o}w}{13}
+\contentsline {section}{\numberline {5.2\relax .\kern .5em }Laser 635\tmspace +\thinmuskip {.1667em}nm}{14}
+\contentsline {section}{\numberline {5.3\relax .\kern .5em }Laser VCSEL 850\tmspace +\thinmuskip {.1667em}nm}{17}
+\contentsline {section}{\numberline {5.4\relax .\kern .5em }Om\IeC {\'o}wienie wynik\IeC {\'o}w}{22}
+\contentsline {section}{\numberline {5.5\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm}{23}
+\contentsline {section}{\numberline {5.6\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm}{24}
+\contentsline {section}{\numberline {5.7\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{25}
+\contentsline {chapter}{Bibliografia}{28}

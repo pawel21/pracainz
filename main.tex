@@ -1,7 +1,7 @@
 \documentclass[a4paper, portrait,12pt]{{mwrep}}
 \usepackage{palatino}
 \renewcommand\familydefault{\sfdefault} 
-\usepackage[verbose,a4paper,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm]{geometry}
+\usepackage[verbose,a4paper,tmargin=2.5cm, bmargin=2.5cm, lmargin=3.5cm, rmargin=2.5cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage{polski}
 \usepackage{amsmath}
@@ -72,19 +72,38 @@ Instytut Fizyki PŁ}
     basicstyle=\footnotesize,% basic font setting
 }
 
+\lstdefinestyle{Bash}
+{language=bash,
+keywordstyle=\color{blue},
+basicstyle=\ttfamily,
+morekeywords={peter@kbpet},
+alsoletter={:~$},
+morekeywords=[2]{peter@kbpet:},
+keywordstyle=[2]{\color{red}},
+literate={\$}{{\textcolor{red}{\$}}}1
+         {:}{{\textcolor{red}{:}}}1
+         {~}{{\textcolor{red}{\textasciitilde}}}1,
+}
 
 \begin{document}
 \tableofcontents
 \input{wstep.tex}
 \newpage
 \input{komunikacja.tex}
-\input{pomiar.tex}
+\newpage
+\input{program_do_sterowania.tex}
+\newpage
 \input{teoria.tex}
+\newpage
+\input{pomiar.tex}
 \input{laser635.tex}
 \newpage
 \input{laser850vcsel.tex}
+\newpage
 \input{laser850edge.tex}
+\newpage
 \input{laser980.tex}
+\newpage
 \input{laserCommon.tex}
 \input{bibliografia.tex}
 \end{document}
