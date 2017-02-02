@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {5.2\relax .\kern .5em }Laser 635\tmspace +\thinmuskip {.1667em}nm}{16}
 \contentsline {section}{\numberline {5.3\relax .\kern .5em }Laser VCSEL 850\tmspace +\thinmuskip {.1667em}nm}{19}
 \contentsline {section}{\numberline {5.4\relax .\kern .5em }Om\IeC {\'o}wienie wynik\IeC {\'o}w}{24}
-\contentsline {section}{\numberline {5.5\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm}{25}
-\contentsline {section}{\numberline {5.6\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm}{26}
-\contentsline {section}{\numberline {5.7\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{27}
-\contentsline {chapter}{Bibliografia}{30}
+\contentsline {section}{\numberline {5.5\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm}{26}
+\contentsline {section}{\numberline {5.6\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm}{28}
+\contentsline {section}{\numberline {5.7\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{30}
+\contentsline {chapter}{Bibliografia}{33}
