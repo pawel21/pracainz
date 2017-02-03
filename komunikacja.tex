@@ -1,14 +1,44 @@
 \chapter{Komunikacja z urządzeniami pomiarowymi na platformie Linux}
+\section{Oprogramowanie open source}
+Otwarte oprogramowanie (ang. \textit{open source}) jest odłamem ruch darmowego oprogramowania (ang. \textit{free software}), którego głównym celem jest możliwość swobodnego dostępu do oprogramowania dla wszystkich. Jawny musi być kod źródłowy. Przykładami takiego oprogramowania które używam w swojej pracy jest:
+\begin{itemize}
+\item System Linux
+\item Język programowania Python
+\end{itemize}
+\section{Python --- idealne narzędzie dla fizyka}
+Język Python jest jednym z najpopularniejszych języków używanych w nauce. Jest on projektem Open Source. Posiada łatwą składnię, dzięki czemu jest się go łatwo nauczyć, a programy pisane w nim są przejrzyste. Dzięki ogromnej ilości modulów, możliwe jest wykonywanie niemalże każdej czynności jakom się potrzebuje. Python używany jest między innymi w eksperymencie mający za cel znalezienie fal grawitacyjnych. W mojej pracy wykorzystywałem ten język zarówno do pisania skryptów mających na celu komunikacje i sterowaniem sprzętem laboratoryjnym jak i  wykorzystywałem do analizy danych uzyskanych w wyników pomiarów.
+Najważniejsze biblioteki, które wykorzystywałem do swoich celów to:
+\begin{itemize}
+\item $\mathtt{Matplotlib}$ ~\cite{matplotlib_book} --- bibliotek do sporządzania wykresów, posiada między innymi możliwość używania symboli \LaTeX.
+ Możliwość wykonywania animacji co jest wykorzystane do robienia wykresów w czasie rzeczywistym.
+\item $\mathtt{Scipy}$ ~\cite{SciPy_book} --- bibliotek do obliczeń numerycznych. Funkcje z niej uzywałem jej do dopasowywania
+fukcji dla zebranych danych w celu wyznacznie prądu progowego oraz sprawności.
+\item $\mathtt{OS}$ --- bibliotek systemowa. Używana w celu komunikacji ze sprzętem pomiarowym przy pomocy wywołań systemowych.
+\item $\mathtt{PyQt5}$ --- biblioteka do tworzenia graficznego interfejsu. Użyłem ją aby stworzyć interfejs graficzny za pomocą,
+którego możliwe jest sterowanie sprzętem.
+\item $\mathtt{Threading}$ --- biblioteka do tworzenia wątków. Używam jej do wykresów w czasie rzeczywistym, ponieważ
+jeden wątek komunikuje się z sprzętem, gdy drugi tworzy wykres.
+\end{itemize}
+Python posiada także biblioteki (np. $\mathtt{Shutil}$) do operowania plikami(jak przenoszenie, usuwanie) co jest często przydatne.
+ Połączenie bibliotek wymienionych powyżej umożliwiło stworzenia programu, który komunikuje i steruje sprzętem.
+  Warto jeszcze nadmienić, że aktulalnie rozwijane są dwie wersję Python: Python 2.7 i Python 3. Większą przyszłość ma Python 3,
+  więc skrypty do analizy danych były pisane w nim. Jednakże biblioteka matplotlib i PyQt5 na chwilę pisania mojej
+  pracy lepiej współpracuje z Python 2.7 więc interefes pomiarowy jest napisany w Python 2.7.
 \section{Programowane urządzenia pomiarowe}
-Przez  programowane urządzenia pomiarowe rozumiemy sprzęt mogący dokonywać pomiarów wielkości elektrycznych i nieelektrycznych, który wyposzażony jest w interfejs umożliwiający sterowanie nimi przy pomocy komputera. Przykładami takich urządzeń, którymi zajmuje się w swojej pracy są:
+Przez  programowane urządzenia pomiarowe rozumiemy sprzęt mogący dokonywać pomiarów wielkości elektrycznych i nieelektrycznych,
+ który wyposzażony jest w interfejs umożliwiający sterowanie nimi przy pomocy komputera. Przykładami takich urządzeń, którymi zajmuje się w swojej pracy są:
 \begin{itemize}
 \item Zasilacza diód laserowych firmy Thorlabs model LDC4005.
 \item Miernik mocy firmy Thorlas firmy Thorlabs model PM100.
 \end{itemize}
-Z wyżej wymienionymi urządzeniami możliwa jest fizyczna komunikacja za pomocą interfejsu USB przy pomocy standardu komend SCPI, który zostanie opiszany w dalszej cześci rozdziału.
+Z wyżej wymienionymi urządzeniami możliwa jest fizyczna komunikacja za pomocą interfejsu USB przy pomocy standardu komend SCPI,
+ który zostanie opiszany w dalszej cześci rozdziału.
 
 \section{Komunikacja}
-W systemach Unix z którego dziedziczy system Linux, wszystko jest plikiem. Linuksowy sterownik znakowy (ang. \textit{char driver}) pozwala na reprezentowanie urządzenia za pomocą specjalnych plików wirtualnych, które znajdują się w przestrzeni użytkownika w katalogu $\mathtt{/dev/<nazwa>}$. Obsługa tych plików możliwa jest za pomocą wywołań systemowych (ang. \textit{system call}), które stanowią API za pomocą którego użytkowniki może sterować sprzętem. Podstawowe wywołaniami systemowymi pozwalające na sterowanie sprzętem to:
+W systemach Unix z którego dziedziczy system Linux, wszystko jest plikiem. Linuksowy sterownik znakowy (ang. \textit{char driver})
+ pozwala na reprezentowanie urządzenia za pomocą specjalnych plików wirtualnych, które znajdują się w przestrzeni
+ użytkownika w katalogu $\mathtt{/dev/<nazwa>}$. Obsługa tych plików możliwa jest za pomocą wywołań systemowych (ang. \textit{system call}),
+  które stanowią API za pomocą którego użytkowniki może sterować sprzętem. Podstawowe wywołaniami systemowymi pozwalające na sterowanie sprzętem to:
 \begin{itemize}
 \item $\mathtt{open}$ --- służy do połaczenia z urządzeniem, zwraca deskrypotor pliku.
 \item $\mathtt{write}$ --- funkcja służaca do wysyłania komend do urządzenia .
