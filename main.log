@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  3 FEB 2017 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  4 FEB 2017 01:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,30 +1109,6 @@ LaTeX Warning: Label `rys1' multiply defined.
 
 LaTeX Warning: Label `rys1' multiply defined.
 
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
-
-LaTeX Warning: Label `rys1' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1253,28 +1229,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--25
-
- []
-
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
 
 ]
-
-Package Fancyhdr Warning: \headheight is too small (14.5pt): 
- Make it at least 38.82336pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [3] (./komunikacja.tex
 Rozdzia\PlPrIeC {\l } 2.
 
@@ -1361,7 +1321,7 @@ File: wykres2.eps Graphic file (type eps)
 <wykres2.eps> [12
 
 ] [13]
-Overfull \hbox (2.60713pt too wide) in paragraph at lines 100--102
+Overfull \hbox (2.60713pt too wide) in paragraph at lines 101--103
 \OT4/pcr/m/n/12 wraz z spad-kiem tem-pe-ra-tu-ry chªod-ni-cy la-se-ra. Jest to 
 spodo-wa-ne wy-ostrza-niem(ang.
  []
@@ -1371,193 +1331,172 @@ File: fermi.eps Graphic file (type eps)
  <fermi.eps> [15]) (./pomiar.tex
 Rozdzia\PlPrIeC {\l } 5.
 File: schemat.eps Graphic file (type eps)
-<schemat.eps>) (./laser635.tex
-Overfull \hbox (28.46796pt too wide) in paragraph at lines 5--11
+<schemat.eps>) [16
+
+] (./laser635.tex [17]
+Overfull \hbox (28.46796pt too wide) in paragraph at lines 27--34
  [] 
  []
 
-[16
-
-]
 File: plot635/plot_i_th_4.eps Graphic file (type eps)
- <plot635/plot_i_th_4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 21--22
+<plot635/plot_i_th_4.eps>
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 44--45
  [] 
  []
 
 File: plot635/plot_fit.eps Graphic file (type eps)
 <plot635/plot_fit.eps>
-Overfull \hbox (71.87671pt too wide) in paragraph at lines 27--28
+Overfull \hbox (71.87671pt too wide) in paragraph at lines 50--51
  [] 
  []
 
 File: plot635/plot_voltage_power.eps Graphic file (type eps)
 <plot635/plot_voltage_power.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 33--35
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 56--58
  [] 
  []
 
 File: plot635/plot_eff_via_current4.eps Graphic file (type eps)
 <plot635/plot_eff_via_current4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 39--40
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 62--63
  [] 
  []
 
 File: plot635/plot_eff_via_current_all.eps Graphic file (type eps)
 <plot635/plot_eff_via_current_all.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 45--46
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 68--69
  [] 
  []
 
-[17] [18] [19]) [20] (./laser850vcsel.tex
-
-LaTeX Warning: Reference `vcsel_850_rys_1' on page 21 undefined on input line 3
-.
-
-
-Overfull \hbox (32.12076pt too wide) in paragraph at lines 7--17
- [] 
- []
-
-File: plot_vcsel_850/plot_fit_i_th.eps Graphic file (type eps)
-<plot_vcsel_850/plot_fit_i_th.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 21--22
- [] 
- []
-
-File: plot_vcsel_850/plot_temp_i_th_log_lin.eps Graphic file (type eps)
-<plot_vcsel_850/plot_temp_i_th_log_lin.eps>
-Overfull \hbox (37.54811pt too wide) in paragraph at lines 27--28
- [] 
- []
-
-File: plot_vcsel_850/plot_power_voltage.eps Graphic file (type eps)
-<plot_vcsel_850/plot_power_voltage.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 39--40
- [] 
- []
-
-File: plot_vcsel_850/plot_eff_wall.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_wall.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 57--58
- [] 
- []
-
-File: plot_vcsel_850/plot_eff_all_via_current2.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_all_via_current2.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 63--64
- [] 
- []
-
-File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_all_via_current.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 69--70
- [] 
- []
-
-[21] [22] [23]
-
-LaTeX Warning: Reference `vcsel_850_rys_1' on page 24 undefined on input line 7
-7.
-
-
-LaTeX Warning: Reference `vcsel_850_rys_4' on page 24 undefined on input line 8
-1.
-
-
-LaTeX Warning: Reference `vcsel_850_rys_5' on page 24 undefined on input line 8
-3.
-
-[24]) [25] (./laser850edge.tex
-Overfull \hbox (32.12076pt too wide) in paragraph at lines 5--14
+) (./laser850edge.tex [18] [19] [20]
+Overfull \hbox (32.12076pt too wide) in paragraph at lines 26--36
  [] 
  []
 
 File: plot_edge_850/plot_i_th4.eps Graphic file (type eps)
 <plot_edge_850/plot_i_th4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 18--20
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 40--42
  [] 
  []
 
 File: plot_edge_850/plot_fit.eps Graphic file (type eps)
 <plot_edge_850/plot_fit.eps>
-Overfull \hbox (71.87671pt too wide) in paragraph at lines 24--26
+Overfull \hbox (71.87671pt too wide) in paragraph at lines 47--49
  [] 
  []
 
 File: plot_edge_850/plot_i_v_i_l.eps Graphic file (type eps)
 <plot_edge_850/plot_i_v_i_l.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 30--32
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 54--56
  [] 
  []
 
 File: plot_edge_850/eff_via_current4.eps Graphic file (type eps)
 <plot_edge_850/eff_via_current4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 36--39
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 61--64
  [] 
  []
 
 File: plot_edge_850/plot_eff_via_current_all.eps Graphic file (type eps)
 <plot_edge_850/plot_eff_via_current_all.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 43--45
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 69--71
  [] 
  []
 
-) [26] [27] [28] (./laser980.tex
-Overfull \hbox (32.12076pt too wide) in paragraph at lines 5--15
+[21] [22] [23]) (./laser850vcsel.tex
+Overfull \hbox (32.12076pt too wide) in paragraph at lines 25--35
+ [] 
+ []
+
+File: plot_vcsel_850/plot_fit_i_th.eps Graphic file (type eps)
+<plot_vcsel_850/plot_fit_i_th.eps>
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 40--41
+ [] 
+ []
+
+File: plot_vcsel_850/plot_temp_i_th_log_lin.eps Graphic file (type eps)
+<plot_vcsel_850/plot_temp_i_th_log_lin.eps>
+Overfull \hbox (37.54811pt too wide) in paragraph at lines 46--47
+ [] 
+ []
+
+File: plot_vcsel_850/plot_power_voltage.eps Graphic file (type eps)
+<plot_vcsel_850/plot_power_voltage.eps>
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 58--59
+ [] 
+ []
+
+File: plot_vcsel_850/plot_eff_all_via_current2.eps Graphic file (type eps)
+<plot_vcsel_850/plot_eff_all_via_current2.eps>
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 82--83
+ [] 
+ []
+
+File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
+<plot_vcsel_850/plot_eff_all_via_current.eps>
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 88--89
+ [] 
+ []
+
+[24] [25] [26]) (./laser980.tex
+Overfull \hbox (32.12076pt too wide) in paragraph at lines 24--34
  [] 
  []
 
 File: plot980/plot_fit_i_th4.eps Graphic file (type eps)
 <plot980/plot_fit_i_th4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 19--21
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 38--39
  [] 
  []
 
 File: plot980/plot_temp_i_th_log_lin.eps Graphic file (type eps)
 <plot980/plot_temp_i_th_log_lin.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 25--27
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 44--45
  [] 
  []
 
 File: plot980/plot_i_v_i_l.eps Graphic file (type eps)
 <plot980/plot_i_v_i_l.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 31--33
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 50--51
  [] 
  []
 
 File: plot980/plot_eff_via_current4.eps Graphic file (type eps)
 <plot980/plot_eff_via_current4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 37--39
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 56--57
  [] 
  []
 
 File: plot980/plot_eff_via_current_all.eps Graphic file (type eps)
 <plot980/plot_eff_via_current_all.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 43--45
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 62--63
  [] 
  []
 
-) [29] [30] [31] (./laserCommon.tex
+) [27] [28] [29] [30] (./laserCommon.tex
 File: plot_common/plot_eff.eps Graphic file (type eps)
  <plot_common/plot_eff.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 4--6
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 13--14
  [] 
  []
 
 File: plot_common/plot_temp_i_th.eps Graphic file (type eps)
 <plot_common/plot_temp_i_th.eps>
-Overfull \hbox (61.63835pt too wide) in paragraph at lines 10--12
+Overfull \hbox (61.63835pt too wide) in paragraph at lines 19--20
  [] 
  []
 
 File: plot_common/plot_wall_eff.eps Graphic file (type eps)
 <plot_common/plot_wall_eff.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 16--18
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 25--26
  [] 
  []
 
-) (./bibliografia.tex [32] [33]) 
+) [31] [32] (./podsumowanie.tex
+Rozdzia\PlPrIeC {\l } 6.
+) (./bibliografia.tex [33
+
+]) 
 AED: lastpage setting LastPage
 [34
 
@@ -1566,19 +1505,16 @@ AED: lastpage setting LastPage
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22923 strings out of 493030
- 515800 string characters out of 6136260
- 850913 words of memory out of 5000000
- 25902 multiletter control sequences out of 15000+600000
+ 22937 strings out of 493030
+ 516198 string characters out of 6136260
+ 850736 words of memory out of 5000000
+ 25914 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,15n,77p,881b,1823s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,77p,881b,1789s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (35 pages, 125572 bytes).
+Output written on main.dvi (35 pages, 128432 bytes).

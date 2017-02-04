@@ -1,4 +1,23 @@
-\section{Laser VCSEL 980\,nm}
+\subsection{Laser VCSEL 980\,nm --- omówienie wyników}
+Pomiar przeprawadzany był w temperaturach chłodnicy od 283\,K do 363\,K, krokiem co 5\,K. Wartości wyznaczonego prądu progowego
+znajdują się w tabel~\ref{tab:tabela_vcsel850}. Rysunki od ~\ref{fig:plot_fit_i_th4_980} do ~\ref{fig:plot_eff_via_current_all_980} dotyczą lasera
+VCSEL 980\,nm.
+\begin{itemize}
+\item Wykres na rysunku~\ref{fig:plot_fit_i_th4_980} przedstawia sposób wyznaczana wartość prądu progowego. Następnie na podstawie
+wyznaczonych wartości w danej temperaturze, sporządziłem wykres prądu progowego w zależności od temperatury
+przedstawiony na rysunku~\ref{fig:plot_temp_i_th_log_lin_980}. Jak widzimy wykres ten charakteryzuje się pewnym prądem
+minimalnym osiągniętym w temperaturze 288\,K.
+\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{fig:plot_i_v_i_l_980}
+można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
+maleje opór lasera. Także, wraz z wyższą temperaturą chłodnicy maleje moc wyjściowa lasera.
+\item Wykres na rysunku~\ref{fig:plot_eff_via_current4_980} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego
+od temperatury na chłodnicy. W górnej części rysunku pokazana jest zależność mocy wyjściowej od prądu, do której dopasowałem
+funkcją kwadratowa dla punktów leżących powyżej wartości prądu progowego. Dopasowana funkcja zbliżona jest do funkcji kwadratowej,
+przez co zmiany sprawności wraz z wzrostem prądu jest dosyć duża.
+\item Wykres na rysunku~\ref{fig:plot_eff_via_current_all_980} przedstawia jak zmienia się sprawność lasera od temperatury chłodnicy.
+Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~\ref{fig:plot_eff_via_current4_980}.
+Analizując ten wykres, dochodzę do wniosku, że wraz z wyższą temperaturą sprawność lasera maleje.
+\end{itemize}
 \begin{table}
 \begin{center}
 \caption{ Wyznaczone wartośc prądu progowego $I_{\mathrm{th}}$ w różnych temperaturach $T$ dla lasera VCSEL 980\,nm.}
@@ -17,30 +36,30 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot980/plot_fit_i_th4.eps}
-  \label{rys1}
   \caption{Wykres ilustrujący wyznaczanie prądu progow dla lasera VCSEL 980\,nm.}
+  \label{fig:plot_fit_i_th4_980}
 \end{figure}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot980/plot_temp_i_th_log_lin.eps}
-  \label{rys1}
   \caption{Wykres prądu progow od temperatury dla lasera VCSEL 980\,nm w skali liniowej oraz logarytmicznej.}
+  \label{fig:plot_temp_i_th_log_lin_980}
 \end{figure}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot980/plot_i_v_i_l.eps}
-  \label{rys1}
   \caption{Wykres napięcia oraz mocy wyjściowej w fukcji prądu dla lasera VCSEL 980\,nm.}
+  \label{fig:plot_i_v_i_l_980}
 \end{figure}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot980/plot_eff_via_current4.eps}
-  \label{rys1}
   \caption{Wykres sprawności różnoczkowej dla lasera VCSEL 980\,nm w dwóch różnych temperaturach.}
+  \label{fig:plot_eff_via_current4_980}
 \end{figure}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot980/plot_eff_via_current_all.eps}
-  \label{rys1}
-  \caption{Wykres sprawności różnoczkowej dla lasera VCSEL 980\,nm w różnych temperaturach.}
+  \caption{Wykres sprawności różniczkowej dla lasera VCSEL 980\,nm w różnych temperaturach.}
+  \label{fig:plot_eff_via_current_all_980}
 \end{figure}

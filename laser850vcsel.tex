@@ -1,6 +1,24 @@
 \newpage
-\section{Laser VCSEL 850\,nm}
-Rysunki ~\ref{vcsel_850_rys_1} -- ~\ref{vcsel_850_rys_7} przedstawiają wykresy dla lasera VCSEL 850\,nm. \\
+\subsection{Laser VCSEL 850\,nm --- omówienie wyników}
+Pomiar przeprawadzany był w temperaturach chłodnicy od 283\,K do 353\,K, krokiem co 5\,K. Wartości wyznaczonego prądu progowego
+znajdują się w tabel~\ref{tab:tabela_vcsel850}. Rysunki od ~\ref{fig:plot_fit_i_th_vcsel850} do ~\ref{fig:plot_eff_all_via_current_vcsel850} dotyczą lasera
+VCSEL 850\,nm.
+\begin{itemize}
+\item Wykres na rysunku~\ref{fig:plot_fit_i_th_vcsel850} przedstawia sposób wyznaczana wartość prądu progowego. Następnie na podstawie
+wyznaczonych wartości w danej temperaturze, sporządziłem wykres prądu progowego w zależności od temperatury
+przedstawiony na rysunku~\ref{fig:plot_temp_i_th_log_lin_vcsel850}. Jak widzimy wykres ten charakteryzuje się pewnym prądem
+minimalnym osiągniętym w temperaturze 298\,K.
+\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{fig:plot_power_voltage_vcsel850}
+można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
+maleje opór lasera. Także, wraz z wyższą temperaturą chłodnicy maleje moc wyjściowa lasera.
+\item Wykres na rysunku~\ref{fig:plot_eff_all_via_current2_vcsel850} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego
+od temperatury na chłodnicy. W górnej części rysunku pokazana jest zależność mocy wyjściowej od prądu, do której dopasowałem
+funkcją kwadratowa dla punktów leżących powyżej wartości prądu progowego. Dopasowana funkcja zbliżona jest do funkcji kwadratowej,
+przez co zmiany sprawności wraz z wzrostem prądu jest dosyć duża.
+\item Wykres na rysunku~\ref{fig:plot_eff_all_via_current_vcsel850} przedstawia jak zmienia się sprawność lasera od temperatury chłodnicy.
+Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~\ref{fig:plot_eff_all_via_current2_vcsel850}.
+Analizując ten wykres, dochodzę do wniosku, że wraz z wyższą temperaturą sprawność lasera maleje.
+\end{itemize}
 \begin{table}
 \begin{center}
 \caption{ Wyznaczone wartośc prądu progowego $I_{\mathrm{th}}$ w różnych temperaturach $T$ dla lasera VCSEL 850\,nm.}
@@ -15,18 +33,19 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
 358		 &   2.57 $\pm$ 0.05  & 363		 &   2.74 $\pm$ 0.07  \\ \cline{1-4}
 \end{tabular}
 \end{center}
+\label{tab:tabela_vcsel850}
 \end{table}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot_vcsel_850/plot_fit_i_th.eps}
   \caption{Wykres prądu progowego od temperatury z wyznaczonymi progami prądu dla lasera VCSEL 850\,nm.}
-  \label{vcsel_850_rys_6}
+  \label{fig:plot_fit_i_th_vcsel850}
 \end{figure}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot_vcsel_850/plot_temp_i_th_log_lin.eps}
   \caption{Wykres prądu progowego od temperatury dla lasera VCSEL 850\,nm.}
-  \label{vcsel_850_rys_7}
+  \label{fig:plot_temp_i_th_log_lin_vcsel850}
 \end{figure}
 %\begin{figure}
 %\center
@@ -38,7 +57,7 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
 \center
   \includegraphics[scale=0.30]{plot_vcsel_850/plot_power_voltage.eps}
   \caption{Wykres napięcia na laserze i mocy wyjściowej w funkcji prądu od temperatury chłodnicy dla lasera VCSEL 850\,nm.}
-  \label{vcsel_850_rys_2}
+  \label{fig:plot_power_voltage_vcsel850}
 \end{figure}
 %\begin{figure}
 %\center
@@ -52,42 +71,42 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
 %  \caption{Sprawność VCSEL 850 dla temperatury 293\,K i 363\,K.}
 %  \label{vcsel_850_rys_5}
 %\end{figure}
-\begin{figure}
-\center
-  \includegraphics[scale=0.30]{plot_vcsel_850/plot_eff_wall.eps}
-  \caption{Sprawność całkowita dla lasera VCSEL 850\,nm w różnych temperaturach.}
-  \label{vcsel_850_rys_8}
-\end{figure}
+%\begin{figure}
+%\center
+%  \includegraphics[scale=0.30]{plot_vcsel_850/plot_eff_wall.eps}
+%  \caption{Sprawność całkowita dla lasera VCSEL 850\,nm w różnych temperaturach.}
+%  \label{vcsel_850_rys_8}
+%\end{figure}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot_vcsel_850/plot_eff_all_via_current2.eps}
   \caption{Sprawność różniczkowa dla lasera VCSEL 850\,nm w różnych temperaturach.}
-  \label{vcsel_850_rys_9}
+  \label{fig:plot_eff_all_via_current2_vcsel850}
 \end{figure}
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{plot_vcsel_850/plot_eff_all_via_current.eps}
   \caption{Sprawność VCSEL 850 w funkcji prądu.}
-  \label{vcsel_850_rys_3}
+  \label{fig:plot_eff_all_via_current_vcsel850}
 \end{figure}
 \newpage
-\section{Omówienie wyników}
-Dzięki analizie sporządzonych wykresów można dojść do następujących konkluzji:
-\begin{itemize}
-\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{vcsel_850_rys_1} oraz~\ref{vcsel_850_rys_2} można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
-maleje opór lasera. Także, wraz z wyższą temperaturą chłodnicy maleje moc wyjściowa lasera.
-\item Wykres na rysunku~\ref{vcsel_850_rys_3} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego od temperatury na chłodnicy, jak wynika z wykresu im
-wyższa temperatura tym sprawność lasera mniejsza.
-\item Wykres na rysunku~\ref{vcsel_850_rys_4} przedstawia sprawność różniczkowa lasera w funkcji mocy wejściowej od temperatury na chłodnicy, jak wynika z wykresu im
-wyższa temperatura tym sprawność lasera mniejsza.
-\item Wykres na rysunku~\ref{vcsel_850_rys_5} przedstawia w górnej cześci zależności mocy wyjściowej od mocy wejściowej.
-\item Wykres na rysunku~\ref{vcsel_850_rys_7} pokazuje zależności prądu progowego od temperatury. Jak widzimy przy temperaturach (280-300)\,K
-wraz ze wzrostem temperatury maleje wartość prądu progowego, natomiast dla temperatur $>$ 300\,K im wyższa temperatura to zwiększa się
-wartość prądu progowego.
-\item Wykres na rysunku~\ref{vcsel_850_rys_8} przedstawia sprawnośc całkowitą lasera dla trzech temperatur: 283\,K, 333\,K, 363\,K. Analizując ten wykres
-dochodzę do wniosku, że im wyższa temperatura tym sprawnośc mniejsza.
-\item Wykres na rysunku~\ref{vcsel_850_rys_9} przedstawia sprawności różniczkowe dla dwóch temperatur. W górnej cześci przedstawiona jest charakterystyka
-wyjściowa z dopasawaną funkcją w postaci wielomianu stopnia drugiego. Pochodna tej funkcji jest sprawnością rożniczkową. Na dolnym wykresie przedstawiona
-jest sprawność w postaci prostej będącej pochodną dopasowanej funkcji. Natomiast czarne kropki przedstawiają sprawność powstałą w wyniku obliczenia pochylenia
-10 punktów przefiltrowanych co 3 punkty.
-\end{itemize}
+%\section{Omówienie wyników}
+%Dzięki analizie sporządzonych wykresów można dojść do następujących konkluzji:
+%\begin{itemize}
+%\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{vcsel_850_rys_1} oraz~\ref{vcsel_850_rys_2} można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
+%maleje opór lasera. Także, wraz z wyższą temperaturą chłodnicy maleje moc wyjściowa lasera.
+%\item Wykres na rysunku~\ref{vcsel_850_rys_3} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego od temperatury na chłodnicy, jak wynika z wykresu im
+%wyższa temperatura tym sprawność lasera mniejsza.
+%\item Wykres na rysunku~\ref{vcsel_850_rys_4} przedstawia sprawność różniczkowa lasera w funkcji mocy wejściowej od temperatury na chłodnicy, jak wynika z wykresu im
+%wyższa temperatura tym sprawność lasera mniejsza.
+%\item Wykres na rysunku~\ref{vcsel_850_rys_5} przedstawia w górnej cześci zależności mocy wyjściowej od mocy wejściowej.
+%\item Wykres na rysunku~\ref{vcsel_850_rys_7} pokazuje zależności prądu progowego od temperatury. Jak widzimy przy temperaturach (280-300)\,K
+%wraz ze wzrostem temperatury maleje wartość prądu progowego, natomiast dla temperatur $>$ 300\,K im wyższa temperatura to zwiększa się
+%wartość prądu progowego.
+%\item Wykres na rysunku~\ref{vcsel_850_rys_8} przedstawia sprawnośc całkowitą lasera dla trzech temperatur: 283\,K, 333\,K, 363\,K. Analizując ten wykres
+%dochodzę do wniosku, że im wyższa temperatura tym sprawnośc mniejsza.
+%\item Wykres na rysunku~\ref{vcsel_850_rys_9} przedstawia sprawności różniczkowe dla dwóch temperatur. W górnej cześci przedstawiona jest charakterystyka
+%wyjściowa z dopasawaną funkcją w postaci wielomianu stopnia drugiego. Pochodna tej funkcji jest sprawnością rożniczkową. Na dolnym wykresie przedstawiona
+%jest sprawność w postaci prostej będącej pochodną dopasowanej funkcji. Natomiast czarne kropki przedstawiają sprawność powstałą w wyniku obliczenia pochylenia
+%10 punktów przefiltrowanych co 3 punkty.
+%\end{itemize}

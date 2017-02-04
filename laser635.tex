@@ -1,4 +1,26 @@
-\section{Laser 635\,nm}
+\section{Eksperyment}
+\subsection{Laser krawędziowy 635\,nm --- omówienie wyników}
+Pomiar przeprawadzany był w temperaturach chłodnicy od 278\,K do 308\,K, krokiem co 5\,K. Wartości wyznaczonego prądu progowego
+znajdują się w tabel~\ref{tab:tabela_635}. Rysunki od ~\ref{fig:plot_i_th_4} do ~\ref{fig:plot_eff_via_current_all} dotyczą lasera
+krawędziowego 635\,nm.
+\begin{itemize}
+\item Wykres na rysunku~\ref{fig:plot_i_th_4} przedstawia sposób wyznaczana wartość prądu progowego. Następnie na podstawie
+wyznaczonych wartości w danej temperaturze, sporządziłem wykres prądu progowego w zależności od temperatury
+przedstawiony na rysunku~\ref{fig:plot_fit}. Do wykreślonych wartości punktów dopasowałem funkcję ~\ref{eq:i_th} wraz z temperaturą charakterystyczną
+$T_0$, która wynosiła ($47 \pm 2$)\,K oraz parametrem $I_0$ o wartości (0.05 $\pm$ 0.02)\,mA
+\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{fig:plot_voltage_power}
+można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
+maleje opór lasera. Także, wraz z wyższą temperaturą chłodnicy maleje moc wyjściowa lasera.
+\item Wykres na rysunku~\ref{fig:plot_eff_via_current4} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego
+od temperatury na chłodnicy. W górnej części rysunku pokazana jest zależność mocy wyjściowej od prądu, do której dopasowałem
+funkcją kwadratowa dla punktów leżących powyżej wartości prądu progowego. Dopasowana funkcja zbliżona jest do funkcji liniowej, przez co sprawność różniczkowa jest
+prawie stała, jednakże jak wynika z wykresu im wyższa temperatura tym sprawność lasera mniejsza, chodź zmiany na
+przestrzeni od są małe rzędu 0.010 W/A.
+\item Wykres na rysunku~\ref{fig:plot_eff_via_current_all} przedstawia jak zmienia się sprawność lasera od temperatury chłodnicy.
+Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~\ref{fig:plot_eff_via_current4}.
+Analizując ten wykres, dochodzę do wniosku, że wraz z wyższą temperaturą sprawność lasera maleje.
+\end{itemize}
+\newpage
 \begin{table}
 \begin{center}
 \caption{ Wyznaczone wartośc prądu progowego $I_{\mathrm{th}}$ w różnych temperaturach $T$ dla lasera krawędziowego 635\,nm. }
@@ -8,6 +30,7 @@ $T$ [K] 	&   278 & 283  	& 288 & 293 & 298 & 303 & 308 \\ \hline
 $I_{\mathrm{th}}$ [mA]  &	19.1 $\pm$ 0.2  & 20.7 $\pm$ 0.2 & 22.6 $\pm$ 0.2 &
 25.0 $\pm$ 0.2  & 27.9 $\pm$ 0.3 & 31.4 $\pm$ 0.5 & 36 $\pm$ 2	\\ \hline
 \end{tabular}
+\label{tab:tabela_635}
 \end{center}
 \end{table}
 %\begin{figure}
@@ -47,22 +70,3 @@ $I_{\mathrm{th}}$ [mA]  &	19.1 $\pm$ 0.2  & 20.7 $\pm$ 0.2 & 22.6 $\pm$ 0.2 &
   \label{fig:plot_eff_via_current_all}
 \end{figure}
 \newpage
-\section{Omówienie wyników}
-Dzięki analizie sporządzonych wykresów można dojść do następujących konkluzji:
-\begin{itemize}
-\item Wykres na rysunku~\ref{fig:plot_i_th_4} przedstawia jak wyznaczałem wartość prądu progowego. Następnie na podstawie
-wyznaczonych wartości prądu prowego w danej temperaturze, sporządziłem wykres prądu prowego w zależności od temperatury
-przedstawiony na rysunku~\ref{fig:plot_fit}. Do wykreślonych punktów można dopasować funkcję wraz z temperaturą charakterystyczną
-$T_0$, która wynosi $47 \pm 2$ K.
-\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{fig:plot_voltage_power}
-można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
-maleje opór lasera. Także, wraz z wyższą temperaturą chłodnicy maleje moc wyjściowa lasera.
-\item Wykres na rysunku~\ref{fig:plot_eff_via_current4} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego
-od temperatury na chłodnicy. U górnej cześci rysunku pokażana jest zależność mocy wyjściowej od prądu, wraz z dopasowaną
- funkcją kwandratową powyzej prądu progowego. Dopasowana funkcja zbliżona jest do funkcji liniowej, przez co sprawność różniczkowa jest
- prawie stała, jednakże  jak wynika z wykresu im wyższa temperatura tym sprawność lasera mniejsza, chodź zmiany na
- przestrzeni od są małe (rzędu 0.010).
-\item Wykres na rysunku~\ref{fig:plot_eff_via_current_all} przedstawia jak zmienia się sprawność lasera od temperatury chłodnicy.
-Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~\ref{fig:plot_eff_via_current4}.
-Analizując ten wykres, dochodzę do wniosku, że wraz z wyższą temperaturą sprawność lasera maleje.
-\end{itemize}
