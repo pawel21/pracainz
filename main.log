@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  5 FEB 2017 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  6 FEB 2017 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1329,42 +1329,47 @@ Rozdzia\PlPrIeC {\l } 5.
 File: schemat.eps Graphic file (type eps)
 <schemat.eps>) [16
 
-] [17] (./laser635.tex [18]
-Overfull \hbox (28.46796pt too wide) in paragraph at lines 27--34
+] [17] (./laser635.tex
+Overfull \hbox (28.46796pt too wide) in paragraph at lines 26--33
  [] 
  []
 
 File: plot635/plot_i_th_4.eps Graphic file (type eps)
 <plot635/plot_i_th_4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 44--45
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 43--44
  [] 
  []
 
 File: plot635/plot_fit.eps Graphic file (type eps)
 <plot635/plot_fit.eps>
-Overfull \hbox (71.87671pt too wide) in paragraph at lines 50--51
+Overfull \hbox (71.87671pt too wide) in paragraph at lines 49--50
  [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
 File: plot635/plot_voltage_power.eps Graphic file (type eps)
+
 <plot635/plot_voltage_power.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 56--58
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 55--57
  [] 
  []
 
 File: plot635/plot_eff_via_current4.eps Graphic file (type eps)
 <plot635/plot_eff_via_current4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 62--63
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 61--62
  [] 
  []
 
 File: plot635/plot_eff_via_current_all.eps Graphic file (type eps)
 <plot635/plot_eff_via_current_all.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 68--69
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 67--68
  [] 
  []
 
-) (./laser850edge.tex [19] [20] [21]
+[19] [20]) (./laser850edge.tex [21]
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 26--36
  [] 
  []
@@ -1488,7 +1493,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 25--26
  [] 
  []
 
-) [32] [33] (./podsumowanie.tex
+[32] [33]) (./podsumowanie.tex
 Rozdzia\PlPrIeC {\l } 6.
 ) (./bibliografia.tex [34
 
@@ -1505,12 +1510,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22940 strings out of 493030
- 516238 string characters out of 6136260
- 842737 words of memory out of 5000000
- 25917 multiletter control sequences out of 15000+600000
+ 22942 strings out of 493030
+ 516257 string characters out of 6136260
+ 842735 words of memory out of 5000000
+ 25919 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,14n,77p,775b,1791s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (36 pages, 130160 bytes).
+Output written on main.dvi (36 pages, 130500 bytes).

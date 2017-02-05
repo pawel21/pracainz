@@ -16,10 +16,10 @@ funkcji oparta jest na poleceniach SCPI dla PM100~\cite{Pm100_book}.
 \section{Krótki opisz najważniejszych klas}
 W tym podrozdziale przedstawię stworzone kody programów do sterowania pomiarami charakterystyk laserów półprzewodnikowych.
  W zaprezentowanych kodach przedstawiam tylko najważniejsze funkcje, aby ułatwić czytelność (pełny kod jest dołączony do pracy). \\
-Pierwszy listing przedstawia klasę $\mathtt{IODevice.py}$ do operacji  wejścia-wyjścia na urządzeniach programowalnych.
+Pierwszy listing 3.1 przedstawia klasę $\mathtt{IODevice.py}$ do operacji  wejścia-wyjścia na urządzeniach programowalnych.
 Jest to podstawowa klasa, która następnie używana jest w klasach do sterowania zasilaczem
-diod laserowych - $\mathtt{LDC4005.py}$ (listing 2) oraz do sterowania miernikiem mocy - $\mathtt{PM100.py}$ (listing 3).
-Ostatni kod (listing 4) pokazuje przykładowy skrypt w języku Python 3, którym można wykonać pomiar charakterystyki lasera.
+diod laserowych - $\mathtt{LDC4005.py}$ (listing 3.2) oraz do sterowania miernikiem mocy - $\mathtt{PM100.py}$ (listing 3.3).
+Ostatni kod (listing 3.4) pokazuje przykładowy skrypt w języku Python 3, którym można wykonać pomiar charakterystyki lasera.
 \newpage
 \lstinputlisting[language=Python, firstline=0, lastline=20]{IODevice.py}
 \lstinputlisting[language=Python, firstline=0, lastline=20]{PM100.py}

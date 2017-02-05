@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {5.1.1\relax .\kern .5em }Przebieg pomiar\IeC {\'o}w}{16}
 \contentsline {section}{\numberline {5.2\relax .\kern .5em }Eksperyment}{18}
 \contentsline {subsection}{\numberline {5.2.1\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 635\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{18}
-\contentsline {subsection}{\numberline {5.2.2\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{19}
+\contentsline {subsection}{\numberline {5.2.2\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{21}
 \contentsline {subsection}{\numberline {5.2.3\relax .\kern .5em }Laser VCSEL 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{25}
 \contentsline {subsection}{\numberline {5.2.4\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{28}
 \contentsline {section}{\numberline {5.3\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{32}
