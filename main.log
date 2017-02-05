@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  4 FEB 2017 01:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  5 FEB 2017 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1092,9 +1092,6 @@ LaTeX Warning: Unused global option(s):
 
 (./main.aux
 
-LaTeX Warning: Label `teoria_rys_1' multiply defined.
-
-
 LaTeX Warning: Label `rys1' multiply defined.
 
 
@@ -1112,26 +1109,26 @@ LaTeX Warning: Label `rys1' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Try loading font information for OT4+phv on input line 88.
-LaTeX Font Info:    No file OT4phv.fd. on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for OT4+phv on input line 89.
+LaTeX Font Info:    No file OT4phv.fd. on input line 89.
 
 
 LaTeX Font Warning: Font shape `OT4/phv/m/n' undefined
-(Font)              using `OT4/cmr/m/n' instead on input line 88.
+(Font)              using `OT4/cmr/m/n' instead on input line 89.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -1169,14 +1166,14 @@ LaTeX Font Warning: Font shape `OT4/phv/m/n' undefined
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 88.
+(lastpage)             ! on input line 89.
 \c@lstlisting=\count162
 ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 88.
+ on input line 89.
 
 (./stronaTytulowa.tex
 
@@ -1224,45 +1221,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Rozdzia\PlPrIeC {\l } 1.
+) [2
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2
-
-]
-[3] (./komunikacja.tex
+] (./komunikacja.tex
 Rozdzia\PlPrIeC {\l } 2.
 
 LaTeX Font Warning: Font shape `OT4/phv/m/it' undefined
 (Font)              using `OT4/phv/m/n' instead on input line 3.
 
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 12.
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 12.
+(Font)              <12> on input line 19.
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
-) [4
+) [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 60--68
 
  []
 
-[5] [6]) (./program_do_sterowania.tex
+[4] [5]) (./program_do_sterowania.tex
 Rozdzia\PlPrIeC {\l } 3.
 
-Overfull \hbox (7.50253pt too wide) in paragraph at lines 10--11
+Overfull \hbox (7.50253pt too wide) in paragraph at lines 13--15
 []$[]$ \OT4/phv/m/it/12 --- kla-sa za-wie-ra-j¡-ca funk-cje do ob-sªu-gi de-tek
--to-ra mo-cy Thor-labs PM100. 
+-to-ra mo-cy Thor-labs PM100.
  []
 
-[7
+[6
 
 ] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -1280,7 +1268,7 @@ Overfull \hbox (47.21347pt too wide) in paragraph at lines 7--9
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-) (./PM100.py) (./LDC4005.py [8]) (./measure.py
+) (./PM100.py) (./LDC4005.py [7]) (./measure.py
 Overfull \hbox (35.21335pt too wide) in paragraph at lines 25--26
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][]  
@@ -1292,48 +1280,56 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (1.84865pt too wide) in paragraph at lines 24--27
+Overfull \hbox (1.84865pt too wide) in paragraph at lines 32--35
 []\OT4/phv/m/it/12 Jedna z mo»-li-wo-±ci¡ prze-pro-wa-dza-nia po-mia-rów jest w
 y-ko-rzy-sta-nie skryp-tu (wraz
  []
 
-LaTeX Font Info:    Try loading font information for OT4+pcr on input line 27.
-LaTeX Font Info:    No file OT4pcr.fd. on input line 27.
+
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [8]
+LaTeX Font Info:    Try loading font information for OT4+pcr on input line 35.
+LaTeX Font Info:    No file OT4pcr.fd. on input line 35.
+
 
 LaTeX Font Warning: Font shape `OT4/pcr/m/n' undefined
-(Font)              using `OT4/cmr/m/n' instead on input line 27.
+(Font)              using `OT4/cmr/m/n' instead on input line 35.
 
-[9]
 File: tree.eps Graphic file (type eps)
- <tree.eps>
+<tree.eps>
 File: gui.eps Graphic file (type eps)
  <gui.eps>
-Overfull \hbox (42.92165pt too wide) in paragraph at lines 59--61
+Overfull \hbox (42.92165pt too wide) in paragraph at lines 67--72
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10]) [11] (./teoria.tex
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10])
+[11] (./teoria.tex
 Rozdzia\PlPrIeC {\l } 4.
 File: wykres2.eps Graphic file (type eps)
 <wykres2.eps> [12
 
 ] [13]
-Overfull \hbox (2.60713pt too wide) in paragraph at lines 101--103
-\OT4/pcr/m/n/12 wraz z spad-kiem tem-pe-ra-tu-ry chªod-ni-cy la-se-ra. Jest to 
-spodo-wa-ne wy-ostrza-niem(ang.
+File: fermi.eps Graphic file (type eps)
+ <fermi.eps>
+Overfull \hbox (4.59367pt too wide) in paragraph at lines 107--119
+\OT4/pcr/m/n/12 jest to ostrze-niem wid-ma wzmoc-nie-nia, gdy roz-kªad fer-mie-
+go si¦ zwe-»¡(narrowing) [[]].
  []
 
-[14]
-File: fermi.eps Graphic file (type eps)
- <fermi.eps> [15]) (./pomiar.tex
+[14]) [15] (./pomiar.tex
 Rozdzia\PlPrIeC {\l } 5.
 File: schemat.eps Graphic file (type eps)
 <schemat.eps>) [16
 
-] (./laser635.tex [17]
+] [17] (./laser635.tex [18]
 Overfull \hbox (28.46796pt too wide) in paragraph at lines 27--34
  [] 
  []
@@ -1368,7 +1364,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 68--69
  [] 
  []
 
-) (./laser850edge.tex [18] [19] [20]
+) (./laser850edge.tex [19] [20] [21]
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 26--36
  [] 
  []
@@ -1403,7 +1399,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 69--71
  [] 
  []
 
-[21] [22] [23]) (./laser850vcsel.tex
+[22] [23] [24]) (./laser850vcsel.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 25--35
  [] 
  []
@@ -1438,7 +1434,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 88--89
  [] 
  []
 
-[24] [25] [26]) (./laser980.tex
+[25] [26] [27]) (./laser980.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 24--34
  [] 
  []
@@ -1473,7 +1469,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 62--63
  [] 
  []
 
-) [27] [28] [29] [30] (./laserCommon.tex
+) [28] [29] [30] [31] (./laserCommon.tex
 File: plot_common/plot_eff.eps Graphic file (type eps)
  <plot_common/plot_eff.eps>
 Overfull \hbox (77.59814pt too wide) in paragraph at lines 13--14
@@ -1492,13 +1488,13 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 25--26
  [] 
  []
 
-) [31] [32] (./podsumowanie.tex
+) [32] [33] (./podsumowanie.tex
 Rozdzia\PlPrIeC {\l } 6.
-) (./bibliografia.tex [33
+) (./bibliografia.tex [34
 
 ]) 
 AED: lastpage setting LastPage
-[34
+[35
 
 ] (./main.aux)
 
@@ -1509,12 +1505,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22937 strings out of 493030
- 516198 string characters out of 6136260
- 850736 words of memory out of 5000000
- 25914 multiletter control sequences out of 15000+600000
+ 22940 strings out of 493030
+ 516238 string characters out of 6136260
+ 842737 words of memory out of 5000000
+ 25917 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,14n,77p,881b,1789s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,77p,775b,1791s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (35 pages, 128432 bytes).
+Output written on main.dvi (36 pages, 130160 bytes).

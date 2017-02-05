@@ -4,14 +4,22 @@ W ramach pracy inżynierskiej zostały stworzone programy do sterowania pomiaram
 Program został napiany w dwóch wersjach: skryptowej oraz okienkowej. Podstawą działania programów są następujące klasy:
 \begin{itemize}
 \item $\mathtt{device.py}$ --- główna klasa, zawiera funkcje: do sprawdzania dostępnych urządzeń,
-zwraca instancje danego urządzenia, co umażliwa korzystanie z jego funkcji.
-\item $\mathtt{IODevice.py}$ --- klasa do operacji wejścia-wyjścia na programowalnych urządzeniach pomiarowych.
-\item $\mathtt{LDC4005.py}$ --- klasa zawierająca funkcje od obsługi zasilacza diód laserowych Thorlabs 4005.
-\item $\mathtt{PM100.py}$ --- klasa zawierająca funkcje do obsługi detektora mocy Thorlabs PM100.
+funkcje zwracającą instancje danego urządzenia, co umażliwa sterowanie danym urządzenim.
+\item $\mathtt{IODevice.py}$ --- klasa do operacji wejścia-wyjścia na programowalnych urządzeniach pomiarowych. Jest to
+uniwersalna klasa, która może być użyta do dowolnego urządzenia zgodnego ze standardem SCPI. Do jej obsługi wymagane jest
+podanie ścieżki do urządzenia.
+\item $\mathtt{LDC4005.py}$ --- klasa zawierająca funkcje od obsługi zasilacza diód laserowych Thorlabs LDC4005. Implementacja
+funkcji oparta jest na poleceniach SCPI dla LDC4005~\cite{Ldc_book_prog}.
+\item $\mathtt{PM100.py}$ --- klasa zawierająca funkcje do obsługi detektora mocy Thorlabs PM100. Implementacja
+funkcji oparta jest na poleceniach SCPI dla PM100~\cite{Pm100_book}.
 \end{itemize}
 \section{Krótki opisz najważniejszych klas}
-W tym podrozdziale przedstawię kody programu do sterowania pomiarami charakterystyk laserów półprzewodnikowych. W zaprezentowanych kodach przedstawiam tylko najważniejsze funkcje, aby ułatwić czytelność (pełny kod jest dołączony do pracy). \\
-Pierwszy listing przedstawia klasę do operacji wejścia-wyjścia na urządzeniach programowalnych. Jest to podstawowa klasa, która następnie używana jest w klasach do sterowania zasilaczem diod laserowych - $\mathtt{LDC4005.py}$ (listing 2) oraz miernika mocy - $\mathtt{PM100.py}$ (listing 3). Ostatni kod (listing 4) pokazuje przykładowy skrypt w języku Python 3, który wykonuje pomiar charakterystyki lasera.
+W tym podrozdziale przedstawię stworzone kody programów do sterowania pomiarami charakterystyk laserów półprzewodnikowych.
+ W zaprezentowanych kodach przedstawiam tylko najważniejsze funkcje, aby ułatwić czytelność (pełny kod jest dołączony do pracy). \\
+Pierwszy listing przedstawia klasę $\mathtt{IODevice.py}$ do operacji  wejścia-wyjścia na urządzeniach programowalnych.
+Jest to podstawowa klasa, która następnie używana jest w klasach do sterowania zasilaczem
+diod laserowych - $\mathtt{LDC4005.py}$ (listing 2) oraz do sterowania miernikiem mocy - $\mathtt{PM100.py}$ (listing 3).
+Ostatni kod (listing 4) pokazuje przykładowy skrypt w języku Python 3, którym można wykonać pomiar charakterystyki lasera.
 \newpage
 \lstinputlisting[language=Python, firstline=0, lastline=20]{IODevice.py}
 \lstinputlisting[language=Python, firstline=0, lastline=20]{PM100.py}
@@ -34,7 +42,7 @@ przeprowadzenia pomiarów:
 student@ubuntu:~$ source venvenv/bin/activate
 student@ubuntu:~$ cd examples/
 \end{lstlisting}
-Do przeprawadzenia pomiarów wywolujemy skrypt $\mathtt{measure.py}$ z parametrami:
+W celu przeprawadzenia pomiarów wywolujemy skrypt $\mathtt{measure.py}$ z parametrami:
 \begin{itemize}
 \item nr: liczba punktów do pomiaru
 \item sc: początkowa wartość prądu w mA, od którego należy rozpocząć pomiar
@@ -48,18 +56,22 @@ student@ubuntu:~$ python3 measure.py -nr 150 -sc 0 -ec 20
 \begin{figure}
 \center
   \includegraphics[scale=0.3]{tree.eps}
-  \caption{Teoria.}
+  \caption{Struktura programu skryptowego.}
   \label{struktura_rys_1}
 \end{figure}
 \section{Wersja okienkowa programu do pomiarów}
 Na rysunku \ref{gui_rys} przedstawiony jest okienkowy program do wykonywania charakterystyk. Program napisany jest w języku
-Python z wykorzystaniem bibliotek PyQt5, matplotlib
+Python 2.7 z wykorzystaniem bibliotek PyQt5, matplotlib
 \begin{figure}[h]
 \center
   \includegraphics[scale=0.35]{gui.eps}
   \label{gui_rys}
-  \caption{1 --- rozpoczecie pomiarów, 2 --- zatrzymanie pomiarów, 3 --- zapisanie danych pomiarowych, 4 --- pokazuje długość fali detektora, 5 --- zmiana długości fali detektora 6 --- ustawia prąd początkowy do pomiarów, 7 ---.}
+  \caption{1 --- rozpoczecie pomiarów, 2 --- zatrzymanie pomiarów, 3 --- zapisanie danych pomiarowych, 4 --- pokazuje długość fali detektora,
+   5 --- zmiana długości fali detektora 6 --- ustawia prąd początkowy do pomiarów, 7 ---  ustawia ilość punktów do pomiaru,
+   8 --- ustawia prąd końcowy do pomiarów, 9 --- ustawia długość pauzy pomiędzy pomiarami, 10 --- wyświetla ważne informacje o ustawieniach,
+   11 --- ustawienie zasilacza, 12 --- pokazuje charakterystykę.}
 \end{figure}
+\newpage
 \begin{itemize}
 \item Przycisk ,,Start" [1] służący do rozpoczęcia pomiarów. Po jego wciśnięciu nastąpi wykonanie charakterystyki lasera na podstawie ustawionych parametrów.
 \item Przycisk ,,Stop" [2] służący do zatrzymania pomiarów. Po jego wciśnięciu nastąpi wyłączenie zasilacza.
@@ -72,4 +84,6 @@ Python z wykorzystaniem bibliotek PyQt5, matplotlib
 \item Przycisk ,,Set timeout in seconds" [9] --- służy do ustawienie długości pauzy między zadaniem prądu do zasilacza, a wykonaniem pomiaru.
 \item Okienko informacyjne [10] --- wyświetla informacje o pomiarze.
 \item Przycisk "Ldc settings" [11] --- ustawia najważniejsze parametry zasilacza diod takie jako wartość maksymalna prądu.
+\item Ekran główny [12] --- pokazuje w czasie rzeczywistym zależność napięcia na laserze oraz mocy wyjściowej w funkcji
+prądu wejściowego.
 \end{itemize}
