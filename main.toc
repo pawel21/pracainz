@@ -28,7 +28,7 @@
 \contentsline {subsection}{\numberline {5.2.3\relax .\kern .5em }Laser VCSEL 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{26}
 \contentsline {subsection}{\numberline {5.2.4\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{29}
 \contentsline {section}{\numberline {5.3\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{33}
-\contentsline {chapter}{\numberline {6\relax .\kern .5em }Podsumowanie}{35}
-\contentsline {section}{\numberline {6.1\relax .\kern .5em }Rezultat pracy}{35}
-\contentsline {section}{\numberline {6.2\relax .\kern .5em }Co dalej?}{35}
-\contentsline {chapter}{Bibliografia}{36}
+\contentsline {chapter}{\numberline {6\relax .\kern .5em }Podsumowanie}{36}
+\contentsline {section}{\numberline {6.1\relax .\kern .5em }Rezultat pracy}{36}
+\contentsline {section}{\numberline {6.2\relax .\kern .5em }Co dalej?}{36}
+\contentsline {chapter}{Bibliografia}{37}

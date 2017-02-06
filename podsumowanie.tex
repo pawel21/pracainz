@@ -1,10 +1,13 @@
 \chapter{Podsumowanie}
 \section{Rezultat pracy}
-W ramach pracy stworzyłem program do sterowania pomiarami charakterystyk elektryczno-optycznych. Program stworzony jest
+W ramach pracy stworzyłem program do sterowania pomiarami charakterystyk elektryczno-optycznych laserów półprzewodnikowych.
+ Program stworzony jest
 w dwóch wersjach: skryptowej oraz okienkowej. Program został napisany w języku Python w sposób obiektowy, co ułatwi
-pracę nad nim w przyszłości. Praca moja wypełniła lukę, którą było brak programu do sterowania sprzętem firmy Thorlabs
+pracę nad nim w przyszłości. Praca moja wypełniła lukę, którą był brak programu do sterowania sprzętem firmy Thorlabs
 na platformie Linux. W ramach pracy zbadałem 4 lasery półprzewodnikowe: dwa krawędziowe oraz dwa VCSEL. Wyznaczyłem dla nich
-wartość prądu progowego oraz sprawności
+wartość prądu progowego oraz sprawności, które dobrze zgadzają się z wartościami z katalogu firmy Thorlabs. Otrzymane wyniki
+przemawiją, za możliwością wykorzystania mojego programu do badanie charakterystyk laserów.
 \section{Co dalej?}
-Możliwa jest dalszy rozwój programu do sterowania m.in. o sterowanie zasilaniem impulsowym.
+Możliwa jest dalszy rozwój programu m.in. o sterowanie zasilaniem impulsowym. Dołącznie oscyloskopu do układu pomiarowego pozwoli badać więcej cech
+ laserów półprzewodnikowych. Komunikacja z oscyloskopem będzie możliwa za pomocą klasy $\mathtt{IODevice.py}$.
 
