@@ -17,18 +17,18 @@
 \contentsline {subsection}{\numberline {4.1.3\relax .\kern .5em }Laser o emisji kraw\IeC {\k e}dziowej}{12}
 \contentsline {subsection}{\numberline {4.1.4\relax .\kern .5em }Pr\IeC {\k a}d progowy}{12}
 \contentsline {subsection}{\numberline {4.1.5\relax .\kern .5em }Sprawno\IeC {\'s}\IeC {\'c}}{14}
-\contentsline {subsection}{\numberline {4.1.6\relax .\kern .5em }Funkcja Fermiego}{14}
-\contentsline {subsection}{\numberline {4.1.7\relax .\kern .5em }Wp\IeC {\l }yw temperatury ch\IeC {\l }odnicy lasera na jego paramentry}{15}
-\contentsline {chapter}{\numberline {5\relax .\kern .5em }Opisz eksperymentu}{16}
-\contentsline {section}{\numberline {5.1\relax .\kern .5em }Uk\IeC {\l }ad pomiarowy}{16}
-\contentsline {subsection}{\numberline {5.1.1\relax .\kern .5em }Przebieg pomiar\IeC {\'o}w}{16}
-\contentsline {section}{\numberline {5.2\relax .\kern .5em }Eksperyment}{18}
-\contentsline {subsection}{\numberline {5.2.1\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 635\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{18}
-\contentsline {subsection}{\numberline {5.2.2\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{21}
-\contentsline {subsection}{\numberline {5.2.3\relax .\kern .5em }Laser VCSEL 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{25}
-\contentsline {subsection}{\numberline {5.2.4\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{28}
-\contentsline {section}{\numberline {5.3\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{32}
-\contentsline {chapter}{\numberline {6\relax .\kern .5em }Podsumowanie}{34}
-\contentsline {section}{\numberline {6.1\relax .\kern .5em }Rezultat pracy}{34}
-\contentsline {section}{\numberline {6.2\relax .\kern .5em }Co dalej?}{34}
-\contentsline {chapter}{Bibliografia}{35}
+\contentsline {subsection}{\numberline {4.1.6\relax .\kern .5em }Funkcja Fermiego}{15}
+\contentsline {subsection}{\numberline {4.1.7\relax .\kern .5em }Wp\IeC {\l }yw temperatury ch\IeC {\l }odnicy lasera na jego paramentry}{16}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Opisz eksperymentu}{17}
+\contentsline {section}{\numberline {5.1\relax .\kern .5em }Uk\IeC {\l }ad pomiarowy}{17}
+\contentsline {subsection}{\numberline {5.1.1\relax .\kern .5em }Przebieg pomiar\IeC {\'o}w}{17}
+\contentsline {section}{\numberline {5.2\relax .\kern .5em }Eksperyment}{19}
+\contentsline {subsection}{\numberline {5.2.1\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 635\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{19}
+\contentsline {subsection}{\numberline {5.2.2\relax .\kern .5em }Laser kraw\IeC {\k e}dziowy 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{22}
+\contentsline {subsection}{\numberline {5.2.3\relax .\kern .5em }Laser VCSEL 850\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{26}
+\contentsline {subsection}{\numberline {5.2.4\relax .\kern .5em }Laser VCSEL 980\tmspace +\thinmuskip {.1667em}nm --- om\IeC {\'o}wienie wynik\IeC {\'o}w}{29}
+\contentsline {section}{\numberline {5.3\relax .\kern .5em }Por\IeC {\'o}wnanie laser\IeC {\'o}w}{33}
+\contentsline {chapter}{\numberline {6\relax .\kern .5em }Podsumowanie}{35}
+\contentsline {section}{\numberline {6.1\relax .\kern .5em }Rezultat pracy}{35}
+\contentsline {section}{\numberline {6.2\relax .\kern .5em }Co dalej?}{35}
+\contentsline {chapter}{Bibliografia}{36}

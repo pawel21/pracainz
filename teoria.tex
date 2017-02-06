@@ -19,7 +19,7 @@ Przykładowe charakterystyki laserera krawędziowego oraz VCSEL pokazane są na 
 \begin{figure}
 \center
   \includegraphics[scale=0.30]{wykres2.eps}
-  \caption{Teoria.}
+  \caption{Charakterystyki laserów półprzewodnikowych.}
   \label{fig:teoria_rys_1}
 \end{figure}
 Ważnym parametrem laserów półprzewodnikowych jest prąd progowy (z ang. \textit{threshold
@@ -90,7 +90,8 @@ Dla laserów VCSEL nie można zastować powyszej zależności(\ref{eq:fit_i_th})
 Innym ważnym parametrem, którym możemy scharakteryzować lasery półprzewodnikowe jest ich sprawność. Można wyróżnić następujące rodzaje sprawności:
 \begin{itemize}
 \item Sprawność różniczkowa (ang. \textit{slope efficiency}) --- jest zdefiniowana jako nachylenie krzywej uzyskanej przez wykreślenie zależności
-mocy wyjściowej z lasera versus energii dostarczonej do lasera w postaci natężenie prądu $I$ lub moc dostarczonej $P$.
+mocy wyjściowej z lasera versus energii dostarczonej do lasera w postaci natężenie prądu $I$ lub moc dostarczonej $P$. Sposób wyznaczanie sprawności
+przedstawiony jest na rysunku~\ref{fig:teoria_rys_2}
 Moc dostarczoną definujemy jako:
 \begin{equation}
 P = U \cdot I
@@ -98,8 +99,15 @@ P = U \cdot I
 gdzie: $U$ --- napięcie na laserze.
 \item Sprawność całkowita (ang. \textit{Wall-plug-efficiency}) --- jest zdefiniowana jako stosunek mocy wyjściowej do całkowitej mocy wejściowej lasera.
 \end{itemize}
+\begin{figure}[H]
+\center
+  \includegraphics[scale=0.30]{plot_eff_theory.eps}
+  \caption{Wyznaczanie sprawności różniczkowej.}
+  \label{fig:teoria_rys_2}
+\end{figure}
 \subsection{Funkcja Fermiego}
-Na wygłąd charakterystk laserów półprzewodnikowych duży wpływ ma funkcja rozkładu Fermiego-Diraca, który opisuje
+Na wygłąd charakterystk laserów półprzewodnikowych duży wpływ ma funkcja rozkładu Fermiego-Diraca przedstawiony na rysunku~\ref{fig:teoria_rys_3},
+ który opisuje
 własności półprzewodników jest ona zależna od temperatury. Funkcja Fermiego-Diraca opisuje prawdopodobieństwo obsadzenia przez elektron poziomu
 energetynczego $E$ przy temperaturze $T$
 \begin{equation}
@@ -110,11 +118,11 @@ Wraz z wzrostem temperatury rośnie prawdopodobieństwo obszadzenia wyższego st
 wpływ na sprawność różniczkową lasera półprzewodnikowego. Wraz z wzrostem temperatury spraność maleje, spowodowane jest to ostrzeniem
 widma wzmocnienia, gdy rozkład fermiego się zweżą(narrowing)~\cite{publikacja_1}.
 %Poziom fermiego reprezentuje średnią pracę którą należy wykonać aby usunąć elektron z materiału.
-\begin{figure}
+\begin{figure}[H]
 \center
   \includegraphics[scale=0.30]{fermi.eps}
   \caption{Rozkład fermiego dla różnych temperatur $T$.}
-  \label{teoria_rys_1}
+  \label{fig:teoria_rys_3}
 \end{figure}
 \newpage
 \subsection{Wpływ temperatury chłodnicy lasera na jego paramentry}
