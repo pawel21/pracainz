@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  7 FEB 2017 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  7 FEB 2017 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1474,19 +1474,19 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 62--63
 ) [29] [30] [31] [32] (./laserCommon.tex
 File: plot_common/plot_eff.eps Graphic file (type eps)
  <plot_common/plot_eff.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 17--18
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 18--19
  [] 
  []
 
 File: plot_common/plot_temp_i_th.eps Graphic file (type eps)
 <plot_common/plot_temp_i_th.eps>
-Overfull \hbox (61.63835pt too wide) in paragraph at lines 23--24
+Overfull \hbox (61.63835pt too wide) in paragraph at lines 24--25
  [] 
  []
 
 File: plot_common/plot_wall_eff.eps Graphic file (type eps)
 <plot_common/plot_wall_eff.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 29--30
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 30--31
  [] 
  []
 
@@ -1507,12 +1507,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22949 strings out of 493030
- 516369 string characters out of 6136260
- 842735 words of memory out of 5000000
- 25925 multiletter control sequences out of 15000+600000
+ 22953 strings out of 493030
+ 516431 string characters out of 6136260
+ 842737 words of memory out of 5000000
+ 25929 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,14n,77p,775b,1791s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (38 pages, 137056 bytes).
+Output written on main.dvi (38 pages, 137652 bytes).
