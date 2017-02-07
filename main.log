@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  7 FEB 2017 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  7 FEB 2017 21:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1396,12 +1396,8 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 60--63
  []
 
 File: plot_edge_850/plot_eff_via_current_all.eps Graphic file (type eps)
-<plot_edge_850/plot_eff_via_current_all.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 68--70
- [] 
- []
-
-[22] [23] [24] [25]) (./laser850vcsel.tex
+<plot_edge_850/plot_eff_via_current_all.eps> [22] [23] [24] [25])
+(./laser850vcsel.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 26--36
  [] 
  []
@@ -1431,12 +1427,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 82--83
  []
 
 File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_all_via_current.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 88--89
- [] 
- []
-
-[26] [27] [28]) (./laser980.tex
+<plot_vcsel_850/plot_eff_all_via_current.eps> [26] [27] [28]) (./laser980.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 24--34
  [] 
  []
@@ -1466,14 +1457,10 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 56--57
  []
 
 File: plot980/plot_eff_via_current_all.eps Graphic file (type eps)
-<plot980/plot_eff_via_current_all.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 62--63
- [] 
- []
-
-) [29] [30] [31] [32] (./laserCommon.tex
+<plot980/plot_eff_via_current_all.eps>) [29] [30] [31] [32] (./laserCommon.tex
 File: plot_common/plot_eff.eps Graphic file (type eps)
- <plot_common/plot_eff.eps>
+
+<plot_common/plot_eff.eps>
 Overfull \hbox (77.59814pt too wide) in paragraph at lines 18--19
  [] 
  []
@@ -1515,4 +1502,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  63i,14n,77p,775b,1791s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (38 pages, 137652 bytes).
+Output written on main.dvi (38 pages, 137644 bytes).
