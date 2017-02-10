@@ -6,7 +6,18 @@ w dwóch wersjach: skryptowej oraz okienkowej. Program został napisany w język
 pracę nad nim w przyszłości. Praca moja wypełniła lukę, którą był brak programu do sterowania sprzętem firmy Thorlabs
 na platformie Linux. W ramach pracy zbadałem 4 lasery półprzewodnikowe: dwa krawędziowe oraz dwa VCSEL. Wyznaczyłem dla nich
 wartość prądu progowego oraz sprawności, które dobrze zgadzają się z wartościami z katalogu firmy Thorlabs. Otrzymane wyniki
-przemawiają, za możliwością wykorzystania mojego programu do badania charakterystyk laserów.
+przemawiają, za możliwością wykorzystania mojego programu do badania charakterystyk laserów. \\
+
+Analizowane lasery krawędziowe charakteryzowały są dużo większą wartością prądu progowego $I_{th}$ niż lasery typu krawędziowego.
+Wartość prądu progowego dla laserów krawędziowych rośnie wraz z temperaturą, zależność tą można opisać równaniem~\ref{eq:i_th}.
+Natomiast lasery VCSEL charakteryzowały się pewnym prądem minimalnym osiąganym w niższych temperaturach, jest to spotyka ich cecha~\cite{publikacja_1}.
+, dla wyższych temperatur wartość prądu progowego również rosła. Zjawisko wzrostu wartości prądu progowego wraz z temperaturą $I_{th}$
+spowodowane jest wzrostem współczynnika Auger wraz z temperatura, co obniża wydajność i czas życia ładunku podczas przejścia promienistego.
+
+Drugą badaną cechą laserów półprzewodnikowych była ich sprawność. Wraz ze wzrostem temperatury, sprawność laserów, które testowałem malała.
+Taki wyniki zgodny jest z przewidywaniami, proces fizyczny odpowiedzialnym za to zjawisko jest wzrost prawdopodobieństwa obsadzenia
+wyższych stanów energetycznych wraz ze wzrostem temperatury w półprzewodniku --- mówi o tym rozkład Fermiego-Dirca.
+W wyniku tego energia emitowanych fotonów podczas przejść promienistych maleje.
 \section{Co dalej?}
 Możliwa jest dalszy rozwój programu m.in. o sterowanie zasilaniem impulsowym. Dołączenie oscyloskopu do układu pomiarowego pozwoli badać więcej cech
 laserów półprzewodnikowych. Komunikacja z oscyloskopem będzie możliwa za pomocą klasy $\mathtt{IODevice.py}$.

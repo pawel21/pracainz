@@ -40,8 +40,15 @@ Aby zaszła akcja laserowa, prąd zasilający musi przekroczyć pewną wartość
 opisywany bardziej szczegółowo.
 Podstawowym zjawiskiem fizycznym na których swe działanie opierają lasery półprzewodnikowe jest przejście promieniste, czyli proces rekombinacji elektronu i dziury w wyniku którego następuje emisja promieniowania. Gdy prąd osiągnie wystarczająco
 dużą wartość dochodzi do inwersji obsadzeń, czyli stanu w którym liczba cząstek o wyższej energii jest większa niż cząstek o energiach niższych.
-Zajście inwersji obsadzeń pozwala wywołać akcję laserową. Emitowana wiązka światła charakteryzuje się niewielką rozbieżnością kątową (kilku stopni). Wśród laserów półprzewodnikowych
+ Zajście inwersji obsadzeń pozwala wywołać akcję laserową. Emitowana wiązka światła charakteryzuje się niewielką rozbieżnością kątową (kilku stopni). Wśród laserów półprzewodnikowych
 wyróżniamy: lasery VCSEL oraz lasery o emisji krawędziowej.
+
+W półprzewodniku występuje także wiele mechanizmów rekombinacji niepromienistej~\cite{praca_dok}, w których energia wzbudzenia zamieniana
+jest na drgania sieci krystalicznej, jednym z takich procesów jest rekombinacja Auger. W procesie rekombinacji Auger energia, która
+powstała na skutek rekombinacji elektronu z dziurą jest przekazywana trzeciej cząstce: elektronowi lub dziurze, która wzbudzana jest
+na wyższy poziom w obrębie swojego pasma. Wzbudzona w ten sposób cząstka na skutek relaksacji emituje fonony, wraz ze wzrostem temperatury
+emisja fononów jest większa. Proces ten ma duże znaczenie dla sprawności laserów półprzewodnikowych oraz dla wartości prądu progowego.
+
 \subsection{Laser VCSEL}
 Lasery VCSEL (ang. \textit{Vertical Cavity Surface Emitting Laser}) jest to laser z emisją powierzchniową o pionowej wnęce rezonansowej.
 W laserach VCSEL promieniowanie rozchodzi się w kierunku prostopadłym do krawędzi obszaru czynnego oraz wzmacniane jest jedynie
@@ -78,7 +85,7 @@ znaleźć parametry prostej o parametrach $a$ i $b$.
 Dla wyznaczonej krzywej należy znaleźć miejsce zerowe, które będzie wyznaczonym prądem progowym $I_{\mathrm{th}}$(\ref{eg:i_th}).
 \begin{equation}
 \label{eq:fit_i_th}
-P = a \cdot I + b
+P_{wy} = a \cdot I + b
 \end{equation}
 \begin{equation}
 \label{eg:i_th}
@@ -136,19 +143,18 @@ Dla laserów VCSEL nie można zastować powyszej zależności (\ref{eq:fit_i_th}
 Innym ważnym parametrem, którym możemy scharakteryzować lasery półprzewodnikowe jest ich sprawność. Można wyróżnić następujące rodzaje sprawności:
 \begin{itemize}
 \item Sprawność różniczkowa (ang. \textit{slope efficiency}) --- jest zdefiniowana jako nachylenie krzywej uzyskanej przez wykreślenie zależności
-mocy wyjściowej z lasera versus energii dostarczonej do lasera w postaci natężenie prądu $I$ lub moc dostarczonej $P$. Sposób wyznaczanie sprawności
-przedstawiony jest na rysunku~\ref{fig:teoria_rys_2}
+mocy wyjściowej $P_{wy}$ z lasera versus energii dostarczonej do lasera w postaci natężenie prądu $I$ lub mocy dostarczonej $P_{we}$.
 Moc dostarczoną definujemy jako:
 \begin{equation}
-P = U \cdot I
+P_{we} = U \cdot I
 \end{equation}
-gdzie: $U$ --- napięcie na laserze.
+gdzie: $U$ --- napięcie na laserze. \\
+Sprawność różniczkowa jest pochodną mocy wyjściowej po prądzie $\frac{dP_{wy}}{dI}$ lub pochodną mocy wyjściowej po mocy wejściowej $\frac{dP_{wy}}{dP_{we}}$
 \item Sprawność całkowita (ang. \textit{wall-plug-efficiency}) --- jest zdefiniowana jako stosunek mocy wyjściowej do całkowitej mocy wejściowej lasera.
 \end{itemize}
 \newpage
 \subsection{Funkcja Fermiego}
-Na sprawność laserów półprzewodnikowych duży wpływ ma funkcja rozkładu Fermiego-Diraca przedstawiony na rysunku~\ref{fig:teoria_rys_3},
-. Funkcja Fermiego-Diraca opisuje prawdopodobieństwo obsadzenia przez elektron poziomu
+Na sprawność laserów półprzewodnikowych duży wpływ ma funkcja rozkładu Fermiego-Diraca przedstawiony na rysunku~\ref{fig:teoria_rys_3}. Funkcja Fermiego-Diraca opisuje prawdopodobieństwo obsadzenia przez elektron poziomu
 energetycznego $E$ przy temperaturze $T$
 \begin{equation}
 \label{eq:fermi}
