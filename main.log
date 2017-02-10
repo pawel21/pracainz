@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  7 FEB 2017 21:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  10 FEB 2017 03:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,12 +487,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-)
-(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
-Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -1164,9 +1158,6 @@ LaTeX Font Warning: Font shape `OT4/phv/m/n' undefined
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 89.
 \c@lstlisting=\count162
 ABD: EveryShipout initializing macros
 
@@ -1313,15 +1304,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [10])
 [11] (./teoria.tex
 Rozdzia\PlPrIeC {\l } 4.
-File: wykres2.eps Graphic file (type eps)
-<wykres2.eps> [12
+[12
 
-] [13]
-File: plot_eff_theory.eps Graphic file (type eps)
- <plot_eff_theory.eps> [14]
+] [13] [14]
+
+LaTeX Warning: Reference `fig:teoria_rys_2' on page 15 undefined on input line 
+134.
+
 File: fermi.eps Graphic file (type eps)
- <fermi.eps>
-Overfull \hbox (4.59367pt too wide) in paragraph at lines 115--126
+<fermi.eps>
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 156--157
+ [] 
+ []
+
+
+Overfull \hbox (4.59236pt too wide) in paragraph at lines 148--159
 \OT4/pcr/m/n/12 jest to ostrze-niem wid-ma wzmoc-nie-nia, gdy roz-kªad fer-mie-
 go si¦ zwe-»¡(narrowing) [[]]. 
  []
@@ -1481,25 +1478,26 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 30--31
 Rozdzia\PlPrIeC {\l } 6.
 ) (./bibliografia.tex [36
 
-]) 
-AED: lastpage setting LastPage
-[37
+]) [37
 
 ] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22953 strings out of 493030
- 516431 string characters out of 6136260
- 842737 words of memory out of 5000000
- 25929 multiletter control sequences out of 15000+600000
+ 22908 strings out of 493030
+ 515532 string characters out of 6136260
+ 841025 words of memory out of 5000000
+ 25893 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,14n,77p,775b,1791s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,77p,775b,1708s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (38 pages, 137644 bytes).
+Output written on main.dvi (38 pages, 140628 bytes).

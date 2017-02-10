@@ -1,34 +1,65 @@
 \chapter{Lasery półprzewodnikowe}
 \section{Teoria}
+\subsection{Teoria pasmowa}
+Działanie laserów półprzewodnikowcyh opiera się na prawach, które opisuje teoria pasmowa.
+Podstatowe przewidywanie teori pasmowej mówi, że ciało stałe składa się z szeregu pasm rozdzielonych od siebie
+ przerwami energetycznymi o skończonych szerokościach wyrażanych w eV. Najważniejszą przerwą, która ma wpływ na właściwości elektryczne ciała jest
+ przerwa pomiędzy pasmem walencyjnym, a pasmem przewodnictwa tzw. przerwa energii wzbronione $E_g$. Ze względu na szerokość przerwy
+  wyrózniamy ~\cite{laser_book}:
+\begin{itemize}
+\item izolatory: $E_g > 3$\,eV
+\item półprzewodniki: $E_g =$ 0.1\,eV--2.5\,eV
+\item przewodniki: $E_g<$0.1\,eV
+\end{itemize}
+Wartość przewy energetycznej maleje z temperaturą według zależności ~\cite{laser_book}:
+\begin{equation}
+E_g(T) = E_{g0} - \frac{\alpha T^2}{\beta + T}
+\end{equation}
+gdzie: $E_{g0}$ --- wartooś przerwy energetycznej w temperaturze $T=0$\,K, \\ $\alpha = 4.5 \cdot 10^{-4}$\,eV/K.
+Wartość paramentru $\beta$ jest dodatnia i zależny od rodzaja półprzewodnika, więc im wyższa temperatura tym wartość przerwy mniejsza.
 \subsection{Lasery półprzewodnikowe}
-Lasery półprzewodnikowe są ważną oraz dynamicznie rozwijączą się gałęziom optoelektroniki. Znajduje one zastosowanie w telekomunikacji,
-zapisie informacji. Wśród laserów połprzedwodnikowych możemy wyróżnić lasery o emisji krawędziowej oraz lasery typu VCSEL, które są przedmiotem
-badań w mojej pracy. Obszarem czynnym w tego typów laserach są złącza p-n w którym obszar czynny jest pompowany przez przepływający prąd elektryczny
-przez te złącza.
+Lasery półprzewodnikowe są ważną oraz dynamicznie rozwijączą się gałęzią optoelektroniki. Cały czas są one udoskonalane dzięki
+ czemu obejmują corasz szerszy zakres częstości widma oraz potrafią generować promieniowanie o dużych mocach.
+ Aby móc udoskonalać  potrzebne są prace zarowno teoretyczne, jak i doświadczarne. Praca ta skupia się na części doświadczarnej.
+ Lasery półprzewodnikowe znajduje zastosowanie w telekomunikacji, zapisie informacji.
+ Zalety laserów półprzewodnikowych:
+ \begin{itemize}
+ \item małe wymiary
+ \item łatwość modulacji emitowanego promieniowania
+ \item niezawodność pracy
+ \item proste zasilanie
+ \end{itemize}
+ \newpage
+Lasery półprzewodnikowe inaczej nazywane kwantowe generatory optyczne są laserami złączowymi. Lasery te są źródłem
+monochromatycznego oraz skolimowanego promieniowania spójnego. W tego typu laserach ośrodkiem aktywnym jest półprzewodnik.
+Obszar czynny zazwyczaj orgraniczony jest do wąskiego paska oraz położony jest w płaszczyźnie złącza p-n.
+Pompowanie uzyskiwane jest przez wstrzykiwanie mniejszościowych nośników ładunku do obszaru p-n, które spolaryzowane jest w kierunku przewodzenia.
+Rezonator jest zazwyczaj w kształcie prostopadłościanu o wymiarach ułamków milimetra, zazwyczaj wykonany także w materiałe półprzewodnikowym~\cite{publikcja_nakwaski}.
+Spreżenie optyczne uzykiwane jest przez zastosowanie pary zwierciadeł prostopadłych do płaszczyzny obszary czynnego lub
+za pomocą pofardownaje specjalnie powierzchni która jest równoległa do tego obszaru (DFB - Distributed Feed Back).
+Aby zaszła akcja laserowa, prąd zasilający musi przekroczyć pewną wartośc progową zwaną prądem progowym $I_{\mathrm{th}}$, który w dalszej cześci jest
+opisywany bardziej szczególowo.
+Podstawowym zjawiskiem fizycznym na których swe działanie opierają lasery półprzewodnikowe jest przejście promieniste
+czyli proces rekombinacji elektronu i dziury w wyniku którego następuje emisja promieniowania. Gdy prąd osiągnie wystarczająco
+dużą wartość dochodzi do inwersji obsadzeń, czyli stanu w którym liczba cząstek o wyszej energi jest większa niż cząsrek o energiach niszych.
+Zajście inwersji obsadzeń pozwala wywołać akcję laserową. Emitowana wiążka światła charakteryzuje się niewielką rozbieżnością kątową (kilku stopni). Wśród laserów półprzewodnikowych
+wyrozniamy: lasery VCSEL oraz lasery o emisji krawędziowej.
 \subsection{Laser VCSEL}
-Laser VCSEL (ang. \textit{Vertical Cavity Surface Emitting Laser}) jest to laser z emisją powierzchniową o pionowej wnęce rezonansowej.
-Charakteryzuje się możliwością emitowania promieniowania z dużej powierzchni, a rozkład poprzeczny promieniowania jest dowolny.
-Inną ważną cechą, którą badam w swoje pracy jest mała wartość prądu progowego.
+Lasery VCSEL (ang. \textit{Vertical Cavity Surface Emitting Laser}) jest to laser z emisją powierzchniową o pionowej wnęce rezonansowej.
+W laserach VCSEL promieniowanie rozchodzi się  w kierunku prostopadłym do krawędzi obszaru czynnego oraz wzmacniane jest jedynie
+wewnątrz tego obszaru ~\cite{publikcja_nakwaski}.
 \subsection{Laser o emisji krawędziowej}
 Laser krawędziowy są to laser z wnęka w  płaszczyźnie warstwy aktywnej. Charakteryzują się większą wartością prądu prowego
 oraz większą sprawnością niż laser VCSEL. Te cechy laserów są tematem moich badań.
 \subsection{Prąd progowy}
-Aby scharakteryzować lasery, należy wykonać ich charakterystyki wyjściowe, które przedstawiają, jak zmienia się moc wyjściowa oraz
-napięcie lasera w funkcji zadanego prądu.
-Przykładowe charakterystyki laserera krawędziowego oraz VCSEL pokazane są na rysunku \ref{fig:teoria_rys_1}.
-\begin{figure}
-\center
-  \includegraphics[scale=0.30]{wykres2.eps}
-  \caption{Charakterystyki laserów półprzewodnikowych.}
-  \label{fig:teoria_rys_1}
-\end{figure}
+Charakterystyka wyjściowa lasera przedstawia zależność napięcia na laserze oraz mocy wyjściowej w funckji aplikowanego prądu.
 Ważnym parametrem laserów półprzewodnikowych jest prąd progowy (z ang. \textit{threshold
 current}) który określa wartość prądu, przy którym zaczyna zachodzić akcja laserowa, czyli
 rośnie gwałtownie natężenie promieniowania i maleje szerokość linii emisyjnej. W celu wyznaczenia prądu progowego należy
 sporządzić wykres zależności mocy wyjściowej lasera od prądu zasilającego. Następnie dla prądu gdzie zaczyna się akcja
 laserowa dla odcinka liniowego należy metodą najmniejszych kwadratów przy użyciu wielomianu pierwszego stopnia(\ref{eq:fit_i_th})
- znaleźć parametry krzywej $a$ i $b$.
- Dla wyznaczonej krzywej należy znaleźć miejsce zerowe, które będzie wyznaczonym prądem progowym $I_{th}$(\ref{eg:i_th}).
+ znaleźć parametry prostej o parametrach $a$ i $b$.
+ Dla wyznaczonej krzywej należy znaleźć miejsce zerowe, które będzie wyznaczonym prądem progowym $I_{\mathrm{th}}$(\ref{eg:i_th}).
 \begin{equation}
 \label{eq:fit_i_th}
 P = a \cdot I + b
@@ -43,19 +74,19 @@ I_{\mathrm{th}} = -\frac{b}{a}
 \begin{equation}
 \Delta I_{\mathrm{th}} = \left\lvert -\frac{b}{a^2} \right\rvert \cdot \Delta a + \left\lvert -\frac{1}{a} \right\rvert \cdot \Delta b
 \end{equation}
-Dla laserów krawędziowych prąd progowy rośnie wraz z temperaturą, co może być scharakteryzowany za pomocą parametru
+Dla laserów krawędziowych prąd progowy rośnie wraz z temperaturą, co może być scharakteryzowane za pomocą parametru
 $T_{0}$ wyrażonego w kelwinach tzw. temperatury charakterystycznej~\cite{opto_book}.
-Więc dla laserów krawędziowych zależności prądu progowego $I_{th}$ od temperatury $T$ wyrażamy w postaci równania:
+Dla laserów krawędziowych zależności prądu progowego $I_{th}$ od temperatury $T$ wyrażamy w postaci równania:
 \begin{equation}
 \label{eq:i_th}
 I_{\mathrm{th}} = I_0 \exp \left( \frac{T}{T_0} \right)
 \end{equation}
-Wartości parametrów $I_0$ oraz $T_0$ możemy wyznaczyć na podstawie charakterystyk
-emisyjnych lasera w różnych temperaturach $T$. \\
 Przez zlogarytmowanie wartości prądu oraz podstawienie otrzymujemy:
 \begin{equation}
 \ln(I_{\mathrm{th}}) =    \frac{T}{T_0}  + \ln(I_0)
 \end{equation}
+Wartości parametrów $I_0$ oraz $T_0$ możemy wyznaczyć na podstawie charakterystyk
+emisyjnych lasera w różnych temperaturach $T$. \\
 Mając wartości prądu progowego w danej temperaturze  można do nich dopasować funkcje liniową w postaci:
 \begin{equation}
 y = a \cdot T + b
@@ -77,15 +108,14 @@ I_0 = \mathrm{e}^b
 \begin{equation}
 T_0 = \frac{1}{a}
 \end{equation}
-Korzystając z różniczki zupełnej można obliczyć wartości błędów wyznaczonych wartości:
+Korzystając z metody różniczki zupełnej można obliczyć wartości błędów wyznaczonych wartości:
 \begin{equation}
 \Delta I_0 = \left\lvert \frac{\partial I_{0}}{\partial b} \right\rvert \cdot \Delta b = | \mathrm{e}^b | \cdot \Delta b
 \end{equation}
 \begin{equation}
 \Delta T_0 = \left\lvert \frac{\partial T_{0}}{\partial a} \right\rvert \cdot \Delta a = \left\lvert -\frac{1}{a^2} \right\rvert \cdot \Delta a
 \end{equation}
-Dla laserów VCSEL nie można zastować powyszej zależności(\ref{eq:fit_i_th}), ponieważ zależności prądu progowego od tempearury chrakteryzuje się pewnym
- minimalnym prądem progowym, gdzie w niższych i wyższych temperatuach wartość prądu progowego jest większa~\cite{publikacja_1}.
+Dla laserów VCSEL nie można zastować powyszej zależności (\ref{eq:fit_i_th}).
 \subsection{Sprawność}
 Innym ważnym parametrem, którym możemy scharakteryzować lasery półprzewodnikowe jest ich sprawność. Można wyróżnić następujące rodzaje sprawności:
 \begin{itemize}
@@ -97,18 +127,11 @@ Moc dostarczoną definujemy jako:
 P = U \cdot I
 \end{equation}
 gdzie: $U$ --- napięcie na laserze.
-\item Sprawność całkowita (ang. \textit{Wall-plug-efficiency}) --- jest zdefiniowana jako stosunek mocy wyjściowej do całkowitej mocy wejściowej lasera.
+\item Sprawność całkowita (ang. \textit{wall-plug-efficiency}) --- jest zdefiniowana jako stosunek mocy wyjściowej do całkowitej mocy wejściowej lasera.
 \end{itemize}
-\begin{figure}[H]
-\center
-  \includegraphics[scale=0.30]{plot_eff_theory.eps}
-  \caption{Wyznaczanie sprawności różniczkowej.}
-  \label{fig:teoria_rys_2}
-\end{figure}
 \subsection{Funkcja Fermiego}
-Na wygłąd charakterystk laserów półprzewodnikowych duży wpływ ma funkcja rozkładu Fermiego-Diraca przedstawiony na rysunku~\ref{fig:teoria_rys_3},
- który opisuje
-własności półprzewodników jest ona zależna od temperatury. Funkcja Fermiego-Diraca opisuje prawdopodobieństwo obsadzenia przez elektron poziomu
+Na sprawność laserów półprzewodnikowych duży wpływ ma funkcja rozkładu Fermiego-Diraca przedstawiony na rysunku~\ref{fig:teoria_rys_3},
+. Funkcja Fermiego-Diraca opisuje prawdopodobieństwo obsadzenia przez elektron poziomu
 energetynczego $E$ przy temperaturze $T$
 \begin{equation}
 f(E) = \frac{1}{e^{(E-E_F)/kT} + 1}
