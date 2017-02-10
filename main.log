@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  10 FEB 2017 03:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  10 FEB 2017 04:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,21 +1309,11 @@ Rozdzia\PlPrIeC {\l } 4.
 ] [13] [14]
 
 LaTeX Warning: Reference `fig:teoria_rys_2' on page 15 undefined on input line 
-134.
+140.
 
+[15]
 File: fermi.eps Graphic file (type eps)
-<fermi.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 156--157
- [] 
- []
-
-
-Overfull \hbox (4.59236pt too wide) in paragraph at lines 148--159
-\OT4/pcr/m/n/12 jest to ostrze-niem wid-ma wzmoc-nie-nia, gdy roz-kªad fer-mie-
-go si¦ zwe-»¡(narrowing) [[]]. 
- []
-
-[15]) [16] (./pomiar.tex
+ <fermi.eps>) [16] (./pomiar.tex
 Rozdzia\PlPrIeC {\l } 5.
 File: schemat.eps Graphic file (type eps)
 <schemat.eps>) [17
@@ -1492,12 +1482,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22908 strings out of 493030
- 515532 string characters out of 6136260
+ 22909 strings out of 493030
+ 515542 string characters out of 6136260
  841025 words of memory out of 5000000
- 25893 multiletter control sequences out of 15000+600000
+ 25894 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,14n,77p,775b,1708s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (38 pages, 140628 bytes).
+Output written on main.dvi (38 pages, 140164 bytes).

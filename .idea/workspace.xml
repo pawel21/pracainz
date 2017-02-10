@@ -5,14 +5,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.dvi" afterPath="$PROJECT_DIR$/main.dvi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.pdf" afterPath="$PROJECT_DIR$/main.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibliografia.tex" afterPath="$PROJECT_DIR$/bibliografia.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fermi.eps" afterPath="$PROJECT_DIR$/fermi.eps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.aux" afterPath="$PROJECT_DIR$/main.aux" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.log" afterPath="$PROJECT_DIR$/main.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.ps" afterPath="$PROJECT_DIR$/main.ps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.tex" afterPath="$PROJECT_DIR$/main.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.toc" afterPath="$PROJECT_DIR$/main.toc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stronaTytulowa.tex" afterPath="$PROJECT_DIR$/stronaTytulowa.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teoria.tex" afterPath="$PROJECT_DIR$/teoria.tex" />
     </list>
     <ignored path="PracaInz2.iws" />
@@ -57,8 +53,8 @@
       <file leaf-file-name="teoria.tex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/teoria.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+            <state relative-caret-position="638">
+              <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -825,8 +821,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+        <state relative-caret-position="638">
+          <caret line="164" column="33" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
           <folding />
         </state>
       </provider>
