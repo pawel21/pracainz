@@ -75,7 +75,7 @@ ax3.set_xlabel("temperatura, $T$ [K]")
 ax3.set_ylabel("prąd progowy, $I_{\mathrm{th}}$ [mA]")
 ax3.errorbar(temp_850, I_th_850, yerr=error_I_th_850, fmt='o')
 f_exp = exp(x, i_0, t_0)
-ax3.text(280, 14, r"$y=1.7 \cdot \exp (\frac{T}{157})$", color='green')
+ax3.text(280, 14, r"$y=1.7 \mathrm{\,mA}  \cdot \exp (\frac{T}{157 \mathrm{\,K} })$", color='green')
 ax3.plot(x, f_exp, 'g-')
 plt.grid(True)
 
