@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  10 FEB 2017 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  11 FEB 2017 02:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1086,6 +1086,9 @@ LaTeX Warning: Unused global option(s):
 
 (./main.aux
 
+LaTeX Warning: Label `fig:teoria_rys_3' multiply defined.
+
+
 LaTeX Warning: Label `rys1' multiply defined.
 
 
@@ -1221,15 +1224,15 @@ LaTeX Font Warning: Font shape `OT4/phv/m/it' undefined
 (Font)              using `OT4/phv/m/n' instead on input line 3.
 
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 19.
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 19.
+(Font)              <12> on input line 18.
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 ) [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 60--68
+Underfull \hbox (badness 10000) in paragraph at lines 58--66
 
  []
 
@@ -1271,7 +1274,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Overfull \hbox (1.84865pt too wide) in paragraph at lines 32--35
+Overfull \hbox (1.84865pt too wide) in paragraph at lines 35--38
 []\OT4/phv/m/it/12 Jedna z mo»-li-wo-±ci¡ prze-pro-wa-dza-nia po-mia-rów jest w
 y-ko-rzy-sta-nie skryp-tu (wraz
  []
@@ -1280,18 +1283,18 @@ y-ko-rzy-sta-nie skryp-tu (wraz
 Underfull \vbox (badness 1655) has occurred while \output is active []
 
  [8]
-LaTeX Font Info:    Try loading font information for OT4+pcr on input line 35.
-LaTeX Font Info:    No file OT4pcr.fd. on input line 35.
+LaTeX Font Info:    Try loading font information for OT4+pcr on input line 38.
+LaTeX Font Info:    No file OT4pcr.fd. on input line 38.
 
 
 LaTeX Font Warning: Font shape `OT4/pcr/m/n' undefined
-(Font)              using `OT4/cmr/m/n' instead on input line 35.
+(Font)              using `OT4/cmr/m/n' instead on input line 38.
 
 File: tree.eps Graphic file (type eps)
 <tree.eps>
 File: gui.eps Graphic file (type eps)
  <gui.eps>
-Overfull \hbox (42.92165pt too wide) in paragraph at lines 67--72
+Overfull \hbox (42.92165pt too wide) in paragraph at lines 70--75
  [] 
  []
 
@@ -1306,14 +1309,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Rozdzia\PlPrIeC {\l } 4.
 [12
 
-] [13] [14] [15]
-File: fermi.eps Graphic file (type eps)
- <fermi.eps>) [16] (./pomiar.tex
+] [13]
+File: vcsel2.eps Graphic file (type eps)
+ <vcsel2.eps> [14]
+File: kraw2.eps Graphic file (type eps)
+ <kraw2.eps> [15] [16]) [17] (./pomiar.tex
 Rozdzia\PlPrIeC {\l } 5.
 File: schemat.eps Graphic file (type eps)
-<schemat.eps>) [17
+<schemat.eps>) [18
 
-] [18] (./laser635.tex
+] [19] (./laser635.tex
 Overfull \hbox (28.46796pt too wide) in paragraph at lines 26--32
  [] 
  []
@@ -1333,7 +1338,7 @@ Overfull \hbox (71.87671pt too wide) in paragraph at lines 49--50
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [20]
 File: plot635/plot_voltage_power.eps Graphic file (type eps)
 
 <plot635/plot_voltage_power.eps>
@@ -1348,7 +1353,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 61--62
  []
 
 File: plot635/plot_eff_via_current_all.eps Graphic file (type eps)
-<plot635/plot_eff_via_current_all.eps> [20] [21]) (./laser850edge.tex
+<plot635/plot_eff_via_current_all.eps> [21] [22]) (./laser850edge.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 26--35
  [] 
  []
@@ -1378,7 +1383,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 60--63
  []
 
 File: plot_edge_850/plot_eff_via_current_all.eps Graphic file (type eps)
-<plot_edge_850/plot_eff_via_current_all.eps> [22] [23] [24] [25])
+<plot_edge_850/plot_eff_via_current_all.eps> [23] [24] [25] [26])
 (./laser850vcsel.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 26--36
  [] 
@@ -1409,7 +1414,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 82--83
  []
 
 File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_all_via_current.eps> [26] [27] [28]) (./laser980.tex
+<plot_vcsel_850/plot_eff_all_via_current.eps> [27] [28] [29]) (./laser980.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 24--34
  [] 
  []
@@ -1439,7 +1444,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 56--57
  []
 
 File: plot980/plot_eff_via_current_all.eps Graphic file (type eps)
-<plot980/plot_eff_via_current_all.eps>) [29] [30] [31] [32] (./laserCommon.tex
+<plot980/plot_eff_via_current_all.eps>) [30] [31] [32] [33] (./laserCommon.tex
 File: plot_common/plot_eff.eps Graphic file (type eps)
 
 <plot_common/plot_eff.eps>
@@ -1459,16 +1464,16 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 30--31
  [] 
  []
 
-[33] [34]) [35] (./podsumowanie.tex
+[34] [35]) [36] (./podsumowanie.tex
 Rozdzia\PlPrIeC {\l } 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--10
 
  []
 
-) (./bibliografia.tex [36
+) (./bibliografia.tex [37
 
-]) [37
+]) [38
 
 ] (./main.aux)
 
@@ -1479,12 +1484,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22909 strings out of 493030
- 515535 string characters out of 6136260
- 841026 words of memory out of 5000000
+ 22910 strings out of 493030
+ 515545 string characters out of 6136260
+ 841025 words of memory out of 5000000
  25894 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,14n,77p,775b,1708s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (38 pages, 143472 bytes).
+Output written on main.dvi (39 pages, 142544 bytes).
