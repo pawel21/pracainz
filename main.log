@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  12 FEB 2017 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  12 FEB 2017 23:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1301,51 +1301,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Rozdzia\PlPrIeC {\l } 4.
 [12
 
-] [13]
+]
 File: vcsel2.eps Graphic file (type eps)
- <vcsel2.eps> [14]
+ <vcsel2.eps>
 File: kraw2.eps Graphic file (type eps)
- <kraw2.eps> [15] [16]) [17] (./pomiar.tex
+ <kraw2.eps> [13] [14] [15]) [16] (./pomiar.tex
 Rozdzia\PlPrIeC {\l } 5.
 File: schemat.eps Graphic file (type eps)
-<schemat.eps>) [18
+<schemat.eps>) [17
 
-] (./laser635.tex
-Overfull \hbox (28.46796pt too wide) in paragraph at lines 26--33
+] (./laser635.tex [18]
+Overfull \hbox (28.46796pt too wide) in paragraph at lines 30--37
  [] 
  []
 
 File: plot635/plot_i_th_4.eps Graphic file (type eps)
 <plot635/plot_i_th_4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 43--44
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 47--48
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
 File: plot635/plot_fit.eps Graphic file (type eps)
-
 <plot635/plot_fit.eps>
-Overfull \hbox (71.87671pt too wide) in paragraph at lines 49--50
+Overfull \hbox (71.87671pt too wide) in paragraph at lines 53--54
  [] 
  []
 
 File: plot635/plot_voltage_power.eps Graphic file (type eps)
 <plot635/plot_voltage_power.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 55--56
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 59--60
  [] 
  []
 
 File: plot635/plot_eff_via_current4.eps Graphic file (type eps)
 <plot635/plot_eff_via_current4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 61--62
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 65--67
  [] 
  []
 
 File: plot635/plot_eff_via_current_all.eps Graphic file (type eps)
-<plot635/plot_eff_via_current_all.eps> [20] [21] [22]) (./laser850edge.tex
+<plot635/plot_eff_via_current_all.eps>
+File: plot635/plot_wall_eff.eps Graphic file (type eps)
+ <plot635/plot_wall_eff.eps> [19]
+[20] [21]) (./laser850edge.tex [22]
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 30--40
  [] 
  []
@@ -1387,18 +1385,18 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 40--41
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
 File: plot_vcsel_850/plot_temp_i_th_log_lin.eps Graphic file (type eps)
-
 <plot_vcsel_850/plot_temp_i_th_log_lin.eps>
 Overfull \hbox (37.54811pt too wide) in paragraph at lines 46--47
  [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 File: plot_vcsel_850/plot_power_voltage.eps Graphic file (type eps)
+
 <plot_vcsel_850/plot_power_voltage.eps>
 Overfull \hbox (77.59814pt too wide) in paragraph at lines 58--59
  [] 
@@ -1411,7 +1409,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 82--83
  []
 
 File: plot_vcsel_850/plot_eff_all_via_current.eps Graphic file (type eps)
-<plot_vcsel_850/plot_eff_all_via_current.eps> [27] [28] [29]) (./laser980.tex
+<plot_vcsel_850/plot_eff_all_via_current.eps> [27] [28]) (./laser980.tex
 Overfull \hbox (32.12076pt too wide) in paragraph at lines 24--35
  [] 
  []
@@ -1422,7 +1420,12 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 39--40
  [] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
 File: plot980/plot_temp_i_th_log_lin.eps Graphic file (type eps)
+
 <plot980/plot_temp_i_th_log_lin.eps>
 Overfull \hbox (77.59814pt too wide) in paragraph at lines 45--46
  [] 
@@ -1455,12 +1458,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 24--25
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
 File: plot_common/plot_wall_eff.eps Graphic file (type eps)
-
 <plot_common/plot_wall_eff.eps>
 Overfull \hbox (77.59814pt too wide) in paragraph at lines 30--31
  [] 
@@ -1469,12 +1467,12 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 30--31
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-[35]) [36] (./podsumowanie.tex
+ [33]
+[34]) [35] (./podsumowanie.tex
 Rozdzia\PlPrIeC {\l } 6.
-) (./bibliografia.tex [37
+) (./bibliografia.tex [36
 
-]) [38
+]) [37
 
 ] (./main.aux)
 
@@ -1485,12 +1483,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22915 strings out of 493030
- 515715 string characters out of 6136260
+ 22918 strings out of 493030
+ 515784 string characters out of 6136260
  841026 words of memory out of 5000000
- 25898 multiletter control sequences out of 15000+600000
+ 25901 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,14n,77p,785b,1708s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (39 pages, 142460 bytes).
+Output written on main.dvi (38 pages, 143072 bytes).

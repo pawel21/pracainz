@@ -2,7 +2,7 @@
 \section{Układ pomiarowy}
 Układ pomiarowt składał się z:
 \begin{itemize}
-\item Komputera z systemem Linux (Ubuntu) --- wymagany jest, aby na komputerze zainstalowany był język Python wraz z bibliotekami:
+\item Komputera z systemem Linux (Ubuntu) --- wymagane jest, aby na komputerze zainstalowany był język Python wraz z bibliotekami:
 matplotlib, numpy, PyQt5. Do sterowania sprzętem przy pomocy programów opisanych w 3 rozdziale wymagane są uprawnienia administratora.
 \item Zasilacza diod laserowych firmy Thorlabs model LDC4005~\cite{Ldc_book}--- zapewnia stabilne zasilanie prądowe lasera prądem do 5\,A.
 Możliwe jest zasilanie ciągłe i impulsowe. Posiada interfejsem SCPI~\cite{Ldc_book_prog}, umożliwiający sterowanie za pomocą komputera przez USB.
@@ -17,8 +17,8 @@ Na wyjściu lasera umieszczony był miernik mocy. Komunikacja z zasilaczem oraz 
 komend SCPI przez połączenie USB przez wykorzystanie programów opisanych w rozdziale 3.
 Temperatura była zmieniana manualnie na kontrolerze temperatury.
 Charakterystyki wyjściowe (czyli wartości prądu zasilania, napięcia na laserze oraz mocy wyjściowej)
-mierzone były pod falą ciągła prądu. Wyniki zapisywane były w pliku tekstowym. Schematyczny rysunek układu pomiarowego przedstawiony jest
-na rysunku 5.1
+mierzone były przy pomocy zasilania ciągłego. Wyniki zapisywane były w pliku tekstowym. Schematyczny rysunek układu pomiarowego przedstawiony jest
+na rysunku 5.1.
 \begin{figure}
 \center
 \includegraphics[scale=0.35]{schemat.eps}
