@@ -1,13 +1,13 @@
 \contentsline {chapter}{\numberline {1\relax .\kern .5em }Wst\IeC {\k e}p}{2}
-\contentsline {chapter}{\numberline {2\relax .\kern .5em }Komunikacja z urz\IeC {\k a}dzeniami pomiarowymi przy wykorzystaniu oprogramowania open source}{3}
-\contentsline {section}{\numberline {2.1\relax .\kern .5em }Oprogramowanie open source}{3}
+\contentsline {chapter}{\numberline {2\relax .\kern .5em }Komunikacja z urz\IeC {\k a}dzeniami pomiarowymi przy wykorzystaniu oprogramowania Open Source}{3}
+\contentsline {section}{\numberline {2.1\relax .\kern .5em }Oprogramowanie Open Source}{3}
 \contentsline {section}{\numberline {2.2\relax .\kern .5em }Python}{3}
 \contentsline {section}{\numberline {2.3\relax .\kern .5em }Programowane urz\IeC {\k a}dzenia pomiarowe}{4}
 \contentsline {section}{\numberline {2.4\relax .\kern .5em }Komunikacja}{4}
 \contentsline {section}{\numberline {2.5\relax .\kern .5em }SCPI --- standard komend do komunikacji z urz\IeC {\k a}dzeniami}{4}
 \contentsline {chapter}{\numberline {3\relax .\kern .5em }Program do sterowania pomiarami charakterystyk laser\IeC {\'o}w p\IeC {\'o}\IeC {\l }przewodnikowych z wykorzystaniem sprz\IeC {\k e}tu Thorlabs}{6}
 \contentsline {section}{\numberline {3.1\relax .\kern .5em }Wst\IeC {\k e}p}{6}
-\contentsline {section}{\numberline {3.2\relax .\kern .5em }Kr\IeC {\'o}tki opisz najwa\IeC {\.z}niejszych klas}{6}
+\contentsline {section}{\numberline {3.2\relax .\kern .5em }Kr\IeC {\'o}tki opis najwa\IeC {\.z}niejszych klas}{6}
 \contentsline {section}{\numberline {3.3\relax .\kern .5em }Wersja skryptowa programu}{9}
 \contentsline {section}{\numberline {3.4\relax .\kern .5em }Wersja okienkowa programu do pomiar\IeC {\'o}w}{9}
 \contentsline {chapter}{\numberline {4\relax .\kern .5em }Lasery p\IeC {\'o}\IeC {\l }przewodnikowe}{12}

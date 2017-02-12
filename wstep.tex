@@ -1,35 +1,36 @@
 \chapter{Wstęp} \label{rozdz.wstep}
-Niniejsza praca dotyczy zakresu inżynierii oprogramowania sprzętu pomiarowego w celu wykorzystania go do badania charakterystyk
-laserów półprzewodnikowych w laboratorium fotoniki Politechniki Łódzkiej. \\
+Niniejsza praca dotyczy stoworzenia układu pomiarowego do badania charakterystyk laserów półprzewodnikowych w laboratorium fotoniki
+ Politechniki Łódzkiej.\\
 Celami pracy jest:
 \begin{itemize}
 \item Stworzenie interfejsu pomiarowego w laboratorium fononiki do badania charakterystyk laserów półprzewodnikowych przy wykorzystaniu oprogramowania
-open source.
+Open Source.
 \item Zbadanie charakterystyk czterech laserów półprzewodnikowych.
 \end{itemize}
-W celu stworzenia interfejsu pomiarowego musimy potrafić sterować sprzętem laboratoryjnym za pomocą komputera, do tego celu dobrze nadaje się oprogramowanie
+W celu stworzenia interfejsu pomiarowego musimy potrafić sterować sprzętem laboratoryjnym za pomocą komputera.
+Do tego celu dobrze nadaje się oprogramowanie
 Open Source takie jak język programowania Python oraz system operacyjny Linux.
-Od dawana podstawowym systemem operacyjnym używanym przez naukowców są różne odmiany systemu Unix.
-Jest to spowodowane dostępnością wielu narzędzi C, Python, Gnuplot, których naturalnym środowiskiem jest środowisko Linux.
-%Inną zaletą środowiska Unix jest możliwością korzystanie z linii poleceń, która ułatwia wiele zadań.
 Szukając informacji o wykorzystaniu języka Python do komunikacji ze sprzętem pomiarowym, można zauważyć pewną lukę,
 którą moja praca ma cel wypełnić przynajmniej w części.
-Przeglądając stronie firmy Thorlabs, której sprzęt jest używany w laboratorium fotoniki,
+Na stronie firmy Thorlabs, której sprzęt jest używany w laboratorium fotoniki,
 brak jest programów do komunikacji ze sprzętem dla platformy Linux.
-Dostępne są jedynie wysokopoziomowe API do systemu Windows oraz istnieje możliwość użycia LabVIEW.
+Dostępne są jedynie wysokopoziomowe API(interfejs do komunikacji z danym urządzeniem, biblioteką) do systemu Windows
+ oraz istnieje możliwość użycia środowiska LabVIEW.
 LabVIEW jest graficznym środowiskiem programistycznym używanym do sterowania sprzętem pomiarowym
-oraz do akwizycji danych pomiarowych. LabVIEW jest programem płatnym. Ja w swoje pracy będę używać środowiska Linux,
-gdzie wszystko jest plikiem, także sprzęt połączony przez USB z komputerem, dzięki czemu możemy się z nim komunikować
-używając standardu komend SCPI przez wykorzystanie wywołań systemowych. Dzięki temu mamy możliwość dostępu do wszystkich możliwych funkcji sprzętu
-pomiarowego w sposób, w jaki potrzebujemy z możliwością pisania skryptów.
+oraz do zbierania danych pomiarowych. Niestety LabVIEW jest programem płatnym. Ja w swoje pracy będę używać środowiska Linux,
+w którym wszystko jest plikiem, także sprzęt połączony przez USB z komputerem, dzięki czemu możemy się z nim komunikować
+używając standardu komend SCPI przez wykorzystanie wywołań systemowych. SCPI --- jest standardem komend do urządzeń
+pomiarowych, dzięki którym możemy sterować danym urządzeniem.
 
-Dzięki mojej pracy możliwe będzie wykonywanie pomiarów charakterystyk laserów półprzewodnikowych.
-W swojej pracy przedstawiam charakterystyki laserów krawędziowych i laserów VCSEL.
-Charakterystyki dają nam ważne informacje o laserze, dzięki nim możliwe jest wyznaczenie prądu progowego oraz
+Dzięki mojej pracy możliwe będzie wykonywanie pomiarów charakterystyk laserów półprzewodnikowych w sposób łatwy oraz w
+krótkim czasie.
+W swojej pracy przedstawiam charakterystyki laserów krawędziowych i laserów VCSEL, które zmierzyłem za pomocą programów napisanych
+w trakcie pisanie pracy.
+Charakterystyki dają nam ważne informacje o laserze, dzięki nim możliwe jest między innymi wyznaczenie prądu progowego oraz
 określenie sprawności danego lasera.
 
 Praca jest podzielona na dwie części: pierwsza składa się z opisu przygotowania eksperymentu, sposobu sterowania urządzeniami laboratoryjnymi
 za pomocą programu napisanego w języku Python dla platformy Linux(Ubuntu).
- Druga część pracy opisuje badanie laserów półprzewodnikowych na podstawie danych uzyskanych
+Druga część pracy opisuje badanie laserów półprzewodnikowych na podstawie danych uzyskanych
 za pomocą programu przedstawionego w pierwszej części. Do wykreślenia charakterystyk wyjściowych oraz wyznaczenie sprawności
 badanych laserów używam skryptów napisanych w języku Python.

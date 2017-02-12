@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  11 FEB 2017 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  12 FEB 2017 20:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,26 +1103,26 @@ LaTeX Warning: Label `rys1' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Try loading font information for OT4+phv on input line 89.
-LaTeX Font Info:    No file OT4phv.fd. on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Try loading font information for OT4+phv on input line 91.
+LaTeX Font Info:    No file OT4phv.fd. on input line 91.
 
 
 LaTeX Font Warning: Font shape `OT4/phv/m/n' undefined
-(Font)              using `OT4/cmr/m/n' instead on input line 89.
+(Font)              using `OT4/cmr/m/n' instead on input line 91.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -1164,7 +1164,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.13} into 
 your preamble.
- on input line 89.
+ on input line 91.
 
 (./stronaTytulowa.tex
 File: logo.eps Graphic file (type eps)
@@ -1218,29 +1218,31 @@ Rozdzia\PlPrIeC {\l } 1.
 
 ] (./komunikacja.tex
 Rozdzia\PlPrIeC {\l } 2.
-
-LaTeX Font Warning: Font shape `OT4/phv/m/it' undefined
-(Font)              using `OT4/phv/m/n' instead on input line 3.
-
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 18.
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 18.
+(Font)              <12> on input line 16.
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 ) [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 58--66
 
+LaTeX Font Warning: Font shape `OT4/phv/m/it' undefined
+(Font)              using `OT4/phv/m/n' instead on input line 42.
+
+
+Overfull \hbox (1.30934pt too wide) in paragraph at lines 54--56
+\OT4/phv/m/it/12 Funkcj¦ te ma-j¡ swo-j¡ im-ple-men-ta-cj¦ w j¦-zy-ku C w bi-bl
+io-te-ce $[]$ oraz $[]$,
  []
 
 [4] [5]) (./program_do_sterowania.tex
 Rozdzia\PlPrIeC {\l } 3.
 
-Overfull \hbox (7.50253pt too wide) in paragraph at lines 13--15
-[]$[]$ \OT4/phv/m/it/12 --- kla-sa za-wie-ra-j¡-ca funk-cje do ob-sªu-gi de-tek
--to-ra mo-cy Thor-labs PM100.
+Overfull \hbox (2.93314pt too wide) in paragraph at lines 12--14
+[]$[]$ \OT4/phv/m/it/12 --- kla-sa za-wie-ra-j¡-ca funk-cje do ob-sªu-gi mier-n
+i-ka mo-cy Thor-labs PM100.
  []
 
 [6
@@ -1272,28 +1274,19 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Overfull \hbox (1.84865pt too wide) in paragraph at lines 35--38
-[]\OT4/phv/m/it/12 Jedna z mo»-li-wo-±ci¡ prze-pro-wa-dza-nia po-mia-rów jest w
-y-ko-rzy-sta-nie skryp-tu (wraz
- []
-
-
-Underfull \vbox (badness 1655) has occurred while \output is active []
-
- [8]
-LaTeX Font Info:    Try loading font information for OT4+pcr on input line 38.
-LaTeX Font Info:    No file OT4pcr.fd. on input line 38.
+) [8]
+LaTeX Font Info:    Try loading font information for OT4+pcr on input line 40.
+LaTeX Font Info:    No file OT4pcr.fd. on input line 40.
 
 
 LaTeX Font Warning: Font shape `OT4/pcr/m/n' undefined
-(Font)              using `OT4/cmr/m/n' instead on input line 38.
+(Font)              using `OT4/cmr/m/n' instead on input line 40.
 
 File: tree.eps Graphic file (type eps)
 <tree.eps>
 File: gui.eps Graphic file (type eps)
  <gui.eps>
-Overfull \hbox (42.92165pt too wide) in paragraph at lines 70--75
+Overfull \hbox (42.92165pt too wide) in paragraph at lines 72--77
  [] 
  []
 
@@ -1492,12 +1485,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22914 strings out of 493030
- 515598 string characters out of 6136260
+ 22915 strings out of 493030
+ 515715 string characters out of 6136260
  841026 words of memory out of 5000000
- 25897 multiletter control sequences out of 15000+600000
+ 25898 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,14n,77p,775b,1708s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,77p,785b,1708s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (39 pages, 142924 bytes).
+Output written on main.dvi (39 pages, 142460 bytes).
