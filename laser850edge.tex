@@ -1,32 +1,34 @@
 \subsection{Laser krawędziowy 850\,nm (L850P010)--- omówienie wyników}
-Pomiar przeprowadzany był w temperaturach chłodnicy od 283\,K do 353\,K, krokiem co 5\,K. Wartości wyznaczonego prądu progowego
-znajdują się w tabeli~\ref{tab:tabela850}. Rysunki od~\ref{fig:plot_i_th4_850} do~\ref{fig:plot_eff_via_current_all_850} dotyczą lasera
+Pomiar przeprowadzany był w temperaturach chłodnicy od 283\,K do 353\,K z krokiem co 5\,K. Wartości wyznaczonego prądu progowego
+znajdują się w tabeli~(\ref{tab:tabela850}). Rysunki od~(\ref{fig:plot_i_th4_850}) do~(\ref{fig:plot_wall_eff_850}) dotyczą lasera
 krawędziowego 850\,nm.
 \begin{itemize}
-\item Wykres na rysunku~\ref{fig:plot_i_th4_850} przedstawia sposób, w jaki wyznaczana była wartość prądu progowego. Następnie na podstawie
-wyznaczonych wartości w danej temperaturze, sporządziłem wykres prądu progowego w zależności od temperatury
-przedstawiony na rysunku~\ref{fig:plot_fit_850}. Do wykreślonych wartości punktów dopasowałem funkcję ~\ref{eq:i_th} w wyniku otrzymałem
+\item Wykres na rysunku~(\ref{fig:plot_i_th4_850}) przedstawia sposób, w jaki wyznaczana była wartość prądu progowego. Następnie na podstawie
+wyznaczonych wartości w danej temperaturze sporządziłem wykres prądu progowego w zależności od temperatury
+przedstawiony na rysunku~(\ref{fig:plot_fit_850}). Do wykreślonych wartości punktów dopasowałem funkcję~(\ref{eq:i_th}) w wyniku czego otrzymałem
 temperaturę charakterystyczną, $T_0$, która wynosiła ($157 \pm 4$)\,K oraz parametr $I_0$, którego wartość wynosiła (1.7 $\pm$ 0.1)\,mA.
 Porównująć wyznaczone wartości $T_0$ oraz $I_0$ dla lasera krawędziowego 850\,nm z wartościami dla lasera krawędziowego 635\,nm, należy
 zauważyć, że wartości te są większe.
-\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{fig:plot_i_v_i_l_850}
+\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~(\ref{fig:plot_i_v_i_l_850})
 można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
-maleje opór lasera. Wraz ze wzrostem temperaturą chłodnicy maleje, także moc wyjściowa lasera.
-\item Wykres na rysunku~\ref{fig:eff_via_current4_850} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego
+maleje opór lasera. Wraz ze wzrostem temperaturą chłodnicy maleje także moc wyjściowa lasera.
+\item Wykres na rysunku~(\ref{fig:eff_via_current4_850}) przedstawia sprawność różniczkową lasera w funkcji prądu wejściowego
 w różnych temperaturach chłodnicy. W górnej części rysunku pokazana jest zależność mocy wyjściowej od prądu, do której dopasowałem
 funkcje kwadratową dla punktów leżących powyżej wartości prądu progowego. Dopasowana funkcja zbliżona jest do funkcji liniowej, przez co sprawność różniczkowa jest
-prawie stała w funkcji prądu, jednakże jak wynika, z wykresu im wyższa temperatura tym sprawność różniczkowa lasera jest mniejsza, chodź zmiany na
+prawie stała w funkcji prądu, jednakże jak wynika z wykresu im wyższa temperatura, tym sprawność różniczkowa lasera jest mniejsza, chodź zmiany na
 są małe około 0.014\,W/A dla temperatury 353\,K przy zakresie prądu od 16.6\,mA do 80\,mA oraz 0.017\,W/A dla temperatury 293\,K
 przy zakresie prądu od 11.1\,mA do 80\,mA.
-\item Wykres na rysunku~\ref{fig:plot_eff_via_current_all_850} przedstawia jak, zmienia się sprawność lasera od temperatury chłodnicy.
-Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~\ref{fig:eff_via_current4_850}.
+\item Wykres na rysunku~(\ref{fig:plot_eff_via_current_all_850}) przedstawia, jak zmienia się sprawność lasera od temperatury chłodnicy.
+Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~(\ref{fig:eff_via_current4_850}).
 Analizując ten wykres, dochodzę do wniosku, że wraz z wyższą temperaturą sprawność różniczkowa lasera maleje dla prądu wejściowego powyżej
-30\,mA. Dla mniejszych wartości prądu dla temperatur 323\,K oraz 333\,K jest inaczej, różnica ta jest niewielka i może być spowodowana, błędem
-wynikającym z metody najmniejszych kwadratów podczas dopasowywania funkcji.
+30\,mA. Dla mniejszych wartości prądu dla temperatur 323\,K oraz 333\,K jest inaczej, różnica ta jest niewielka i może być spowodowana błędem
+wynikającym z metody najmniejszych kwadratów podczas dopasowywania funkcji~(\ref{eq:fit_i_th}).
+\item Wykres na rysunku~(\ref{fig:plot_wall_eff_850}) przedstawia sprawność całkowitą lasera w funkcji prądu. Jak widzimy,
+wraz ze wzrostem temperatury sprawność całkowita spada, choć spadek nie jest tak duży jak w przypadku lasera krawędziowego 635\,nm.
 \end{itemize}
 \begin{table}[H]
 \begin{center}
-\caption{ Wyznaczone wartośc prądu progowego $I_{\mathrm{th}}$ w różnych temperaturach $T$ dla lasera krawędziowego 850\,nm.}
+\caption{ Wyznaczone wartości prądu progowego $I_{\mathrm{th}}$ w różnych temperaturach $T$ dla lasera krawędziowego 850\,nm.}
 \begin{tabular}{ | C{1.5cm}|  C{3.0cm} | C{1.5cm} | C{3.0cm}| C{1.5cm} | C{3.0cm}|}
 \hline
 $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA] 	\\ \hline
@@ -39,7 +41,7 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
 \label{tab:tabela850}
 \end{center}
 \end{table}
-\begin{figure}
+\begin{figure}[H]
 \center
   \includegraphics[scale=0.30]{plot_edge_850/plot_i_th4.eps}
   \label{rys1}
@@ -64,7 +66,8 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
 \center
   \includegraphics[scale=0.30]{plot_edge_850/eff_via_current4.eps}
   \label{rys1}
-  \caption{Wykres sprawności różniczkowej dla lasera krawędziowego 850\,nm dla dwóch temperatur.}
+  \caption{Wykres sprawności różniczkowej dla lasera krawędziowego 850\,nm dla dwóch temperatur. U góry dopasowana funkcja,
+u dołu pochodna tej funkcji reprezentująca sprawność różniczkową.}
   \label{fig:eff_via_current4_850}
 \end{figure}
 \begin{figure}
@@ -73,5 +76,12 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
   \label{rys1}
   \caption{Wykres sprawności różniczkowej dla lasera krawędziowego 850\,nm w różnych temperaturach.}
   \label{fig:plot_eff_via_current_all_850}
+\end{figure}
+\begin{figure}
+\center
+  \includegraphics[scale=0.25]{plot_edge_850/plot_wall_eff.eps}
+  \label{rys1}
+  \caption{Wykres sprawności całkowitej w funkcji prądu dla lasera krawędziowego 850\,nm dla dwóch temperatur.}
+  \label{fig:plot_wall_eff_850}
 \end{figure}
 \newpage
