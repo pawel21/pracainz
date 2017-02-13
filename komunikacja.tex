@@ -8,7 +8,7 @@ Przykładami oprogramowania Open Source, które wykorzystałem w swojej pracy s�
 \section{Python}
 Język Python posiada wiele bibliotek naukowych oraz systemowych, które można zastosować do komunikacji ze sprzętem pomiarowym.
 Posiada łatwą składnię, dzięki czemu jest łatwy w nauce, a programy pisane w nim są przejrzyste.
-Python jest często używany w nauce m.in. w eksperymencie mający za cel znalezienie fal grawitacyjnych.
+Python jest często używany w nauce m.in. w eksperymencie mający za cel znalezienie fal grawitacyjnych~\cite{python}.
 W mojej pracy wykorzystywałem ten język zarówno do pisania skryptów mających na celu komunikację i sterowanie sprzętem laboratoryjnym,
 jak i wykorzystywałem do analizy danych uzyskanych w wyniku pomiarów.
 Najważniejsze biblioteki, których użyłem do swoich celów to:
@@ -17,7 +17,7 @@ Najważniejsze biblioteki, których użyłem do swoich celów to:
 Posiada możliwość wykonywania animacji co używam do robienia wykresów w czasie rzeczywistym.
 \item $\mathtt{Scipy}$ ~\cite{SciPy_book} --- biblioteka do obliczeń numerycznych, przydatna przy analizie danych.
 \item $\mathtt{OS}$ --- biblioteka systemowa. Używana w celu komunikacji ze sprzętem pomiarowym za pomocą wywołań systemowych.
-\item $\mathtt{PyQt5}$ --- biblioteka do tworzenia graficznego interfejsu. Użyłem ją, aby stworzyć interfejs graficzny za pomocą
+\item $\mathtt{PyQt5}$ --- biblioteka do tworzenia graficznego interfejsu. Użyłem jej, aby stworzyć interfejs graficzny za pomocą
 którego możliwe jest sterowanie sprzętem oraz wykonywanie pomiarów charakterystyk laserów półprzewodnikowych
 \item $\mathtt{Threading}$ --- biblioteka do tworzenia wątków. Używam jej do robienia wykresów w czasie rzeczywistym.
 W tym celu potrzebowałem jeden wątek do komunikacji ze sprzętem, a drugi wątek w tym samym czasie
@@ -78,11 +78,11 @@ W odpowiedzi na zapytanie po zakończeniu wykonywania poprzedzających poleceń 
 \item Polecenia charakterystyczne dla danego urządzenia pomiarowego zgodnie z jego przeznaczeniem.
 Przykładowe polecenie które będzie działać na każdym zasilaczu korzystającym z standardu SCPI:
 \begin{itemize}
-\item Ustawienie wartości prądu na 0.01\,A \\ $\mathtt{SOURce:CURRent:LEVel:AMPLitude}$ $\mathtt{0.01}$
+\item Ustawienie wartości prądu na 0.01\,A \\ $\mathtt{SOURce:CURRent:LEVel:AMPLitude}$ $\mathtt{0.01 A} $
 \end{itemize}
 \end{itemize}
 
 Fizyczne łącze komunikacyjne nie jest zdefiniowane przez SCPI. Stworzony standard IEEE-488 był dla GPIB,
 ale może być również używany z interfejsem RS-232, Ethernet, VXIBus, USB. W przypadku mojej pracy do komunikacji ze sprzętem
-używam USB. USB --- jest uniwersalnym portem wykorzystanym do komunikacji między komputerem a urządzeniem, posiadającym wejście USB.
+używam USB, które jest uniwersalnym portem wykorzystanym do komunikacji między komputerem a urządzeniem, posiadającym wejście USB.
 \newpage

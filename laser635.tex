@@ -3,36 +3,38 @@ W tej cześci pracy przedtawiam wyniki pomiarów charakterystyk laserów półpr
 jak mój program do sterowania sprawdza się podczas pomiarów.
 \subsection{Laser krawędziowy 635\,nm (L635P003) --- omówienie wyników}
 Pomiar przeprowadzony był w temperaturach chłodnicy od 278\,K do 308\,K, z krokiem co 5\,K. Wartości wyznaczonego prądu progowego
-znajdują się w tabeli~(\ref{tab:tabela_635}). Rysunki od~(\ref{fig:plot_i_th_4}) do~(\ref{fig:plot_eff_wall_635}) dotyczą lasera
+znajdują się w tabeli~\ref{tab:tabela_635}. Rysunki od~\ref{fig:plot_i_th_4} do~\ref{fig:plot_eff_wall_635} dotyczą lasera
 krawędziowego 635\,nm.
 \begin{itemize}
-\item Wykres na rysunku~(\ref{fig:plot_i_th_4}) przedstawia sposób wyznaczania wartość prądu progowego. Następnie na podstawie
+\item Wykres na rysunku~\ref{fig:plot_i_th_4} przedstawia sposób wyznaczania wartość prądu progowego. Następnie na podstawie
 wyznaczonych wartości w danej temperaturze sporządziłem wykres prądu progowego w zależności od temperatury
-przedstawiony na rysunku~(\ref{fig:plot_fit}). Do wykreślonych wartości punktów dopasowałem funkcję~(\ref{eq:i_th}).
+przedstawiony na rysunku~\ref{fig:plot_fit}. Do wykreślonych wartości punktów dopasowałem funkcję~(\ref{eq:i_th}).
 W wyniku czego otrzymałem temperature charakterystyczną $T_0$, która wynosiła ($47 \pm 2$)\,K oraz parametr $I_0$ o wartości (0.05 $\pm$ 0.02)\,mA
-\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~(\ref{fig:plot_voltage_power_635})
+\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{fig:plot_voltage_power_635}
 można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
 maleje opór lasera. Wraz z wyższą temperaturą chłodnicy maleje także moc wyjściowa lasera.
-\item Wykres na rysunku~(\ref{fig:plot_eff_via_current4_635}) przedstawia sprawność różniczkową lasera w funkcji prądu wejściowego
+\item Wykres na rysunku~\ref{fig:plot_eff_via_current4_635} przedstawia sprawność różniczkową lasera w funkcji prądu wejściowego
 w różnych temperaturach chłodnicy. W górnej części rysunku pokazana jest zależność mocy wyjściowej od prądu, do której dopasowałem
 funkcje kwadratową dla punktów leżących powyżej wartości prądu progowego. Dopasowana funkcja zbliżona jest do funkcji liniowej, przez co sprawność różniczkowa jest
 prawie stała, jednakże jak wynika z wykresu im wyższa temperatura tym sprawność lasera mniejsza, aczkolwiek zmiany na
 przestrzeni są małe około 0.010\,W/A.
-\item Wykres na rysunku~(\ref{fig:plot_eff_via_current_all}) przedstawia jak zmienia się sprawność lasera w zależności od temperatury chłodnicy.
-Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~(\ref{fig:plot_eff_via_current4_635}).
+\item Wykres na rysunku~\ref{fig:plot_eff_via_current_all} przedstawia jak zmienia się sprawność lasera w zależności od temperatury chłodnicy.
+Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~\ref{fig:plot_eff_via_current4_635}.
 Analizując ten wykres, dochodzę do wniosku, że wraz ze wzrostem temperatury sprawność różniczkowa lasera maleje.
-\item Wykres na rysunku~(\ref{fig:plot_eff_wall_635}) przedstawia sprawność całkowitą lasera w funkcji prądu. Jak widzimy,
+\item Wykres na rysunku~\ref{fig:plot_eff_wall_635} przedstawia sprawność całkowitą lasera w funkcji prądu. Jak widzimy,
 wraz ze wzrostem temperatury sprawność całkowita mocno spada.
 \end{itemize}
 \begin{table}[H]
 \begin{center}
 \caption{Wyznaczone wartości prądu progowego $I_{\mathrm{th}}$ w różnych temperaturach $T$ dla lasera krawędziowego 635\,nm. }
-\begin{tabular}{ | C{1.5cm}|  C{1.5cm} | C{1.5cm} | C{1.5cm}| C{1.5cm} | C{1.5cm}| C{1.5cm}| C{2.0cm}| C{2.0cm}|}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{ | C{1.9cm}|  C{1.5cm} | C{1.9cm} | C{1.9cm}| C{1.9cm} | C{1.9cm}| C{1.9cm}| C{1.9cm}| C{2.0cm}|}
 \hline
 $T$ [K] 	&   278 & 283  	& 288 & 293 & 298 & 303 & 308 \\ \hline
 $I_{\mathrm{th}}$ [mA]  &	19.1 $\pm$ 0.2  & 20.7 $\pm$ 0.2 & 22.6 $\pm$ 0.2 &
-25.0 $\pm$ 0.2  & 27.9 $\pm$ 0.3 & 31.4 $\pm$ 0.5 & 36 $\pm$ 2	\\ \hline
+25.0 $\pm$ 0.2  & 27.9 $\pm$ 0.3 & 31.4 $\pm$ 0.5 & 36.4 $\pm$ 0.9	\\ \hline
 \end{tabular}
+\end{adjustbox}
 \label{tab:tabela_635}
 \end{center}
 \end{table}
@@ -44,13 +46,13 @@ $I_{\mathrm{th}}$ [mA]  &	19.1 $\pm$ 0.2  & 20.7 $\pm$ 0.2 & 22.6 $\pm$ 0.2 &
 %\end{figure}
 \begin{figure}[H]
 \center
-  \includegraphics[scale=0.30]{plot635/plot_i_th_4.eps}
+  \includegraphics[scale=0.30]{plot635/plot_i_th_4_2.eps}
   \caption{Wykres ilustrujący wyznacznie prądu progowego dla lasera krawędziowego 635\,nm.}
   \label{fig:plot_i_th_4}
 \end{figure}
 \begin{figure}
 \center
-  \includegraphics[scale=0.30]{plot635/plot_fit.eps}
+  \includegraphics[scale=0.30]{plot635/plot_fit_2.eps}
   \caption{Wykres prądu progowego w zależności od temperatury chłodnicy z dopasowanymi wartościami $I_{0}$ i $T_{0}$ dla lasera krawędziowego 635\,nm.}
   \label{fig:plot_fit}
 \end{figure}

@@ -1,29 +1,30 @@
 \newpage
 \subsection{Laser VCSEL 850\,nm --- omówienie wyników}
 Pomiar przeprowadzany był w temperaturach chłodnicy od 283\,K do 353\,K z krokiem co 5\,K. Wartości wyznaczonego prądu progowego
-znajdują się w tabeli~(\ref{tab:tabela_vcsel850}). Rysunki od ~(\ref{fig:plot_fit_i_th_vcsel850}) do ~(\ref{fig:plot_wall_eff_vcsel850}) dotyczą lasera
+znajdują się w tabeli~\ref{tab:tabela_vcsel850}. Rysunki od~\ref{fig:plot_fit_i_th_vcsel850} do~\ref{fig:plot_wall_eff_vcsel850} dotyczą lasera
 VCSEL 850\,nm.
 \begin{itemize}
-\item Wykres na rysunku~(\ref{fig:plot_fit_i_th_vcsel850}) przedstawia sposób wyznaczania wartość prądu progowego. Następnie na podstawie
+\item Wykres na rysunku~\ref{fig:plot_fit_i_th_vcsel850} przedstawia sposób wyznaczania wartość prądu progowego. Następnie na podstawie
 wyznaczonych wartości w danej temperaturze sporządziłem wykres prądu progowego w zależności od temperatury
-przedstawiony na rysunku~(\ref{fig:plot_temp_i_th_log_lin_vcsel850}). Jak widzimy, wykres ten charakteryzuje się pewnym minimum, które
+przedstawiony na rysunku~\ref{fig:plot_temp_i_th_log_lin_vcsel850}. Jak widzimy, wykres ten charakteryzuje się pewnym minimum, które
 osiągane jest w temperaturze 298\,K.
-\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~(\ref{fig:plot_power_voltage_vcsel850})
+\item Analizując wykres napięcia na laserze od prądu wejściowego przedstawiony na rysunku~\ref{fig:plot_power_voltage_vcsel850}
 można zauważyć, że wraz ze wzrostem temperatury na chłodnicy
 maleje opór lasera. Wraz ze wzrostem temperatury chłodnicy maleje, także moc wyjściowa lasera.
-\item Wykres na rysunku~(\ref{fig:plot_eff_all_via_current2_vcsel850}) przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego
+\item Wykres na rysunku~\ref{fig:plot_eff_all_via_current2_vcsel850} przedstawia sprawność różniczkowa lasera w funkcji prądu wejściowego
 od temperatury na chłodnicy. W górnej części rysunku pokazana jest zależność mocy wyjściowej od prądu, do której dopasowałem
 funkcje kwadratową dla punktów leżących powyżej wartości prądu progowego.
 Zmiany sprawności wraz ze wzrostem prądu są dosyć duże w funkcji prądu.
-\item Wykres na rysunku~(\ref{fig:plot_eff_all_via_current_vcsel850}) przedstawia, jak zmienia się sprawność lasera od temperatury chłodnicy.
-Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~(\ref{fig:plot_eff_all_via_current2_vcsel850}).
+\item Wykres na rysunku~\ref{fig:plot_eff_all_via_current_vcsel850} przedstawia, jak zmienia się sprawność lasera od temperatury chłodnicy.
+Funkcje, które przedstawiają sprawność zostały wyznaczone analogicznie jak te przedstawione na rysunku~\ref{fig:plot_eff_all_via_current2_vcsel850}.
 Analizując ten wykres, dochodzę do wniosku, że wraz ze wzrostem temperatury sprawność lasera maleje.
-\item Wykres na rysunku~(\ref{fig:plot_wall_eff_vcsel850}) przedstawia sprawność całkowitą lasera w funkcji prądu. Jak widzimy,
+\item Wykres na rysunku~\ref{fig:plot_wall_eff_vcsel850} przedstawia sprawność całkowitą lasera w funkcji prądu. Jak widzimy,
 wraz ze wzrostem temperatury sprawność całkowita mocno spada.
 \end{itemize}
 \begin{table}[H]
 \begin{center}
 \caption{ Wyznaczone wartości prądu progowego $I_{\mathrm{th}}$ w różnych temperaturach $T$ dla lasera VCSEL 850\,nm.}
+\begin{adjustbox}{max width=\textwidth}
 \begin{tabular}{ | C{1.5cm}|  C{3.0cm} | C{1.5cm} | C{3.0cm}| C{1.5cm} | C{3.0cm}|}
 \hline
 $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA] 	\\ \hline
@@ -34,6 +35,7 @@ $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T$ [K] &   $I_{\mathrm{th}}$ [mA]  &  $T
 343		 &   2.14 $\pm$ 0.04  & 348		 &   2.24 $\pm$ 0.05  & 353		 &   2.38 $\pm$ 0.05  \\ \hline
 358		 &   2.57 $\pm$ 0.05  & 363		 &   2.74 $\pm$ 0.07  \\ \cline{1-4}
 \end{tabular}
+\end{adjustbox}
 \label{tab:tabela_vcsel850}
 \end{center}
 \end{table}

@@ -26,9 +26,9 @@ Ostatni kod (listing 3.4) pokazuje przykładowy skrypt w języku Python 3, któr
 \lstinputlisting[language=Python, firstline=0, lastline=29]{LDC4005.py}
 Skrypt przedstawiony na listingu 3.4 w wierszach 1--3 importuje potrzebne moduły. Ważne, aby moduły $\mathtt{LDC4005.py}$ oraz $\mathtt{PM100.py}$
 znajdowały się w tym samym folderze co $\mathtt{measure.py}$.
-W wierszu 6 deklarujemy tablicę 20 elementów o wartościach prądu od 0 do 0.02 \,A. Następnie w wierszach 8-10 deklarujemy
+W wierszu 6 deklarujemy tablicę 20 elementów o wartościach prądu od 0 do 0.02 \,A. Następnie w wierszach 8--10 deklarujemy
 tablicę do przechowywania danych, które zostaną zmierzone.
-W liniach 13-14 tworzy instancje klasy dla zasilacza i miernika. Zakładamy, że port $\mathtt{/dev/usbtmc0}$ odpowiada zasilaczowi ldc4005,
+W wierszach 13--14 tworzy instancje klasy dla zasilacza i miernika. Zakładamy, że port $\mathtt{/dev/usbtmc0}$ odpowiada zasilaczowi ldc4005,
 a port $\mathtt{/dev/usbtmc1}$ odpowiada miernikowi mocy PM100. Nazwę, można sprawdzić za pomocą zapytania  ,,$\mathtt{*IDN?}"$.
 Następnie w wierszu 20 ustawiany prąd na zasilaczu, w 21 czytamy prąd z zasilacza, w 22 czytamy napięcie, a w 23 czytamy moc wyjściową na mierniku mocy.
 Ostatnim etapem jest zapisanie danych do pliku  przedstawione w wierszach 25--26.
@@ -40,7 +40,7 @@ w konsoli wywołać polecenie $\mathtt{make}$.
 \begin{lstlisting}[style=Bash]{Zbudowanie środowiska.}
 student@ubuntu:~$ make
 \end{lstlisting}
-Nastepnie uruchamiamy wirtualne środowisko (linia 1), które posiada wszystkie potrzebne biblioteki, następnie
+Nastepnie uruchamiamy wirtualne środowisko (wiersz 1), które posiada wszystkie potrzebne biblioteki, następnie
 przechodzimy do katologu $\mathtt{examples}$, gdzie znajduje się plik $\mathtt{measure.py}$, który należy użyć do
 przeprowadzenia pomiarów:
 \begin{lstlisting}[style=Bash]{Przejście do katalogu z skryptem pomiarowym.}
@@ -51,7 +51,7 @@ W celu przeprawadzenia pomiarów wywolujemy skrypt $\mathtt{measure.py}$ z param
 \begin{itemize}
 \item nr: liczba punktów do pomiaru
 \item sc: początkowa wartość prądu w mA, od którego należy rozpocząć pomiar
-\item ec: wartość prądu w mA do którego przeprowadza się pomiar.
+\item ec: wartość prądu w mA, do którego przeprowadza się pomiar.
 \item fn: nazwa wynikowa pliku z danymi, która będzie zapisana w katalogu $\mathtt{output}$
 \end{itemize}
 \begin{lstlisting}[style=Bash]{Użycie skryptu w celu przeprowadzenia pomiaru.}
