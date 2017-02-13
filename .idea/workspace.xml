@@ -5,15 +5,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.dvi" afterPath="$PROJECT_DIR$/main.dvi" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.pdf" afterPath="$PROJECT_DIR$/main.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bibliografia.tex" afterPath="$PROJECT_DIR$/bibliografia.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laser635.tex" afterPath="$PROJECT_DIR$/laser635.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laser850edge.tex" afterPath="$PROJECT_DIR$/laser850edge.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laser850vcsel.tex" afterPath="$PROJECT_DIR$/laser850vcsel.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laser980.tex" afterPath="$PROJECT_DIR$/laser980.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laserCommon.tex" afterPath="$PROJECT_DIR$/laserCommon.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.aux" afterPath="$PROJECT_DIR$/main.aux" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.log" afterPath="$PROJECT_DIR$/main.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.ps" afterPath="$PROJECT_DIR$/main.ps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.toc" afterPath="$PROJECT_DIR$/main.toc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/podsumowanie.tex" afterPath="$PROJECT_DIR$/podsumowanie.tex" />
     </list>
     <ignored path="PracaInz2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,16 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wstep.tex" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wstep.tex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="komunikacja.tex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/komunikacja.tex">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,6 +52,13 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="laserCommon.tex" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laserCommon.tex">
+          <provider selected="true" editor-type-id="LaTeXFileEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pomiar.tex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pomiar.tex">
           <provider selected="true" editor-type-id="LaTeXFileEditor">
@@ -73,8 +69,8 @@
       <file leaf-file-name="podsumowanie.tex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/podsumowanie.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="126" selection-start-line="11" selection-start-column="126" selection-end-line="11" selection-end-column="126" />
+            <state relative-caret-position="216">
+              <caret line="12" column="129" selection-start-line="12" selection-start-column="129" selection-end-line="12" selection-end-column="129" />
               <folding />
             </state>
           </provider>
@@ -83,8 +79,8 @@
       <file leaf-file-name="laser980.tex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laser980.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="440">
+              <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -100,16 +96,16 @@
       <file leaf-file-name="laser850vcsel.tex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laser850vcsel.tex">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="288">
+              <caret line="85" column="65" selection-start-line="85" selection-start-column="65" selection-end-line="85" selection-end-column="65" />
               <folding>
-                <marker date="1486943316432" expanded="false" signature="2088:2101" ph="\begin{table}..." />
+                <marker date="1486946740272" expanded="false" signature="2088:2101" ph="\begin{table}..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laser850edge.tex" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laser850edge.tex" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laser850edge.tex">
           <provider selected="true" editor-type-id="LaTeXFileEditor">
             <state />
@@ -147,8 +143,6 @@
         <option value="$PROJECT_DIR$/makefile" />
         <option value="$PROJECT_DIR$/plot635/plot_fit_i_th_temp.py" />
         <option value="$PROJECT_DIR$/plot_edge_850/plot_fit.py" />
-        <option value="$PROJECT_DIR$/laserCommon.tex" />
-        <option value="$PROJECT_DIR$/podsumowanie.tex" />
         <option value="$PROJECT_DIR$/stronaTytulowa.tex" />
         <option value="$PROJECT_DIR$/wstep.tex" />
         <option value="$PROJECT_DIR$/komunikacja.tex" />
@@ -157,10 +151,12 @@
         <option value="$PROJECT_DIR$/teoria.tex" />
         <option value="$PROJECT_DIR$/pomiar.tex" />
         <option value="$PROJECT_DIR$/bibliografia.tex" />
-        <option value="$PROJECT_DIR$/laser980.tex" />
         <option value="$PROJECT_DIR$/laser635.tex" />
-        <option value="$PROJECT_DIR$/laser850vcsel.tex" />
         <option value="$PROJECT_DIR$/laser850edge.tex" />
+        <option value="$PROJECT_DIR$/podsumowanie.tex" />
+        <option value="$PROJECT_DIR$/laser850vcsel.tex" />
+        <option value="$PROJECT_DIR$/laser980.tex" />
+        <option value="$PROJECT_DIR$/laserCommon.tex" />
       </list>
     </option>
   </component>
@@ -448,9 +444,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="24" width="1861" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29978237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29978237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -732,17 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laserCommon.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="LaTeXFileEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.tex">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -798,17 +783,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/podsumowanie.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="126" selection-start-line="11" selection-start-column="126" selection-end-line="11" selection-end-column="126" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="LaTeXFileEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pomiar.tex">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -841,14 +815,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laser980.tex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+    <entry file="file://$PROJECT_DIR$/laser850edge.tex">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="LaTeXFileEditor">
+      <provider selected="true" editor-type-id="LaTeXFileEditor">
         <state />
       </provider>
     </entry>
@@ -865,10 +839,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laser850vcsel.tex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="288">
+          <caret line="85" column="65" selection-start-line="85" selection-start-column="65" selection-end-line="85" selection-end-column="65" />
           <folding>
-            <marker date="1486943316432" expanded="false" signature="2088:2101" ph="\begin{table}..." />
+            <marker date="1486946740272" expanded="false" signature="2088:2101" ph="\begin{table}..." />
           </folding>
         </state>
       </provider>
@@ -876,7 +850,29 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laser850edge.tex">
+    <entry file="file://$PROJECT_DIR$/laser980.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="LaTeXFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/podsumowanie.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="129" selection-start-line="12" selection-start-column="129" selection-end-line="12" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="LaTeXFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laserCommon.tex">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

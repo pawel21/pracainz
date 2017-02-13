@@ -1,20 +1,19 @@
 \chapter{Podsumowanie}
 \section{Rezultat pracy}
-W ramach pracy stworzyłem program do sterowania pomiarami charakterystyk elektryczno-optycznych laserów półprzewodnikowych.
-Program stworzony jest
-w dwóch wersjach: skryptowej oraz okienkowej. Program został napisany w języku Python w sposób obiektowy, co ułatwi
-pracę nad nim w przyszłości. Praca moja wypełniła lukę, którą był brak programu do sterowania sprzętem firmy Thorlabs
-na platformie Linux. W ramach pracy zbadałem 4 lasery półprzewodnikowe: dwa krawędziowe oraz dwa VCSEL. Wyznaczyłem dla nich
-wartość prądu progowego oraz sprawności, które dobrze zgadzają się z wartościami z katalogu firmy Thorlabs. Otrzymane wyniki
-przemawiają, za możliwością wykorzystania mojego programu do badania charakterystyk laserów.
+Zakładane cele pracy zostały zrealizowane: powstał program do sterowania pomiarami elektryczno-optycznych charakterystyk laserów półprzewodnikowych
+oraz zostały zbadane cztery lasery półprzewodnikowe.
 
-Analizowane lasery krawędziowe charakteryzowały są dużo większą wartością prądu progowego $I_{th}$ niż lasery typu krawędziowego.
+Moja praca wypełniła w cześć lukę, którą był brak programu do sterowania sprzętem firmy Thorlabs
+na platformie Linux.
+Korzystając ze stworzonego programu, dokonałem pomiarów. Następnie na podstawie zebranych danych dokonałem analizy charakterystyk laserów półprzewodnikowych.
+W ramach pracy zbadałem cztery lasery półprzewodnikowe: dwa krawędziowe oraz dwa VCSEL. Wyznaczyłem dla nich
+wartości prądu progowego oraz sprawności różniczkowe, które dobrze zgadzają się z wartościami z katalogu firmy Thorlabs. Otrzymane wyniki
+przemawiają za możliwością wykorzystania mojego programu do badania charakterystyk laserów.
+
+Analizowane lasery krawędziowe charakteryzowały są dużo większą wartością prądu progowego $I_{\mathrm{th}}$ niż lasery typu VCSEL.
 Wartość prądu progowego dla laserów krawędziowych rośnie wraz z temperaturą, zależność tą można opisać równaniem~\ref{eq:i_th}.
-Zjawisko wzrostu wartości prądu progowego wraz z temperaturą $I_{th}$
-spowodowane jest zjawiskami, które można wyjaśnić na podstawie teorii pasmowej ciał stałych.
 
-Drugą badaną cechą laserów półprzewodnikowych była ich sprawność. Wraz ze wzrostem temperatury, sprawność laserów malała.
-Taki wyniki zgodny jest z przewidywaniami. Procesy fizyczne odpowiedzialne za to zjawisko można wytłumaczyć m.in. przy pomocy rozkładu Fermiego-Diraca.
+
 \section{Co dalej?}
 Możliwa jest dalszy rozwój programu m.in. o sterowanie zasilaniem impulsowym. Dołączenie oscyloskopu do układu pomiarowego pozwoli badać więcej cech
 laserów półprzewodnikowych. Komunikacja z oscyloskopem będzie możliwa za pomocą klasy $\mathtt{IODevice.py}$.

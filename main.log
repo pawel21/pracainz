@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  13 FEB 2017 00:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.1.22)  13 FEB 2017 01:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1409,7 +1409,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 60--61
 
 File: plot_vcsel_850/plot_eff_all_via_current2.eps Graphic file (type eps)
 <plot_vcsel_850/plot_eff_all_via_current2.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 84--85
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 84--86
  [] 
  []
 
@@ -1447,7 +1447,7 @@ Overfull \hbox (77.59814pt too wide) in paragraph at lines 52--53
 
 File: plot980/plot_eff_via_current4.eps Graphic file (type eps)
 <plot980/plot_eff_via_current4.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 58--59
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 58--60
  [] 
  []
 
@@ -1455,39 +1455,24 @@ File: plot980/plot_eff_via_current_all.eps Graphic file (type eps)
 <plot980/plot_eff_via_current_all.eps>
 File: plot980/plot_wall_eff.eps Graphic file (type eps)
  <plot980/plot_wall_eff.eps>) [31]
-[32] [33] (./laserCommon.tex
+[32] [33] (./laserCommon.tex [34]
 File: plot_common/plot_eff.eps Graphic file (type eps)
  <plot_common/plot_eff.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 18--19
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 17--18
  [] 
  []
 
 File: plot_common/plot_temp_i_th.eps Graphic file (type eps)
 <plot_common/plot_temp_i_th.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 24--25
+Overfull \hbox (77.59814pt too wide) in paragraph at lines 23--24
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-File: plot_common/plot_wall_eff.eps Graphic file (type eps)
-
-<plot_common/plot_wall_eff.eps>
-Overfull \hbox (77.59814pt too wide) in paragraph at lines 30--31
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
-[36]) [37] (./podsumowanie.tex
+[35]) (./podsumowanie.tex [36]
 Rozdzia\PlPrIeC {\l } 6.
-) (./bibliografia.tex [38
+) (./bibliografia.tex [37
 
-]) [39
+]) [38
 
 ] (./main.aux)
 
@@ -1498,12 +1483,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22924 strings out of 493030
- 515958 string characters out of 6136260
- 841024 words of memory out of 5000000
- 25907 multiletter control sequences out of 15000+600000
+ 22922 strings out of 493030
+ 515906 string characters out of 6136260
+ 841025 words of memory out of 5000000
+ 25905 multiletter control sequences out of 15000+600000
  14204 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,14n,77p,785b,1708s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (40 pages, 145408 bytes).
+Output written on main.dvi (39 pages, 144384 bytes).
